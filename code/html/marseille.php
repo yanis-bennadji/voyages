@@ -12,6 +12,8 @@
     </section>
 
     qosdiljhdsiyfksd
+
+    <img src="../../assets/image/yanis/screen.png" alt="">
     
 </body>
 </html>
