@@ -10,7 +10,6 @@
 </head>
 <body>
 
-    <a href="./code/html/marseille.php">marseille</a>
     
 </body>
 </html>

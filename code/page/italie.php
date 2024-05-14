@@ -7,6 +7,10 @@
 </head>
 <body>
 
+    <header>
+
+    </header>
+
     <section>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, pariatur illum vel sed iste non ex ab quo cupiditate rerum odio! Ullam fugit repellendus tempore dolorum sequi pariatur cumque dignissimos?</p>
     </section>
