@@ -1,0 +1,62 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient(
+        to left,
+        red 35%,
+        white 35% 65%,
+        rgb(2, 59, 124) 65%
+      );
+}
+
+h1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.istp {
+    width: 200px;
+}
+
+.cbox {
+    border: solid;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.cbox h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cbox img {
+    display: flex;
+    flex-direction: row;
+}
+
+.sbox {
+    border: solid;
+    font-size: 22px;
+    /* margin-left: 230px; */
+}
+
+.sbox h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.pbox {
+    border: solid;
+    font-size: 22px;
+
+}
+
+.pbox h2 {
+    display: flex;
+    justify-content: center;
+}
