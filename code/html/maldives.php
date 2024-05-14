@@ -8,7 +8,8 @@
 </head>
 <body>
 <main>
-      <img src="../../assets/image/dounayha/maldivesPlage.jpg" alt="">
+      
+      <img class="maldivesplage" src="../../assets/image/dounayha/maldivesPlage.jpg" alt="">
        <h1>
         Les maldives
         </h1>
