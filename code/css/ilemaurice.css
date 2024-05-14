@@ -1,3 +1,59 @@
+@media screen and(min-width:320px) {
+    ile-maurice-1: { width: 100%;}
+}
+
 .mauricehaut{
-    background-color: beige;
+    background-color: #046276
+}
+
+.mauricepaysage{
+    width: 100%;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#caroussel{
+    width: 610px;
+    overflow: hidden;
+    border: 5px solid #f0f2f3;
+    border-radius: 5%;
+}
+
+.maurice{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: maurice;
+    animation-iteration-count: infinite;
+    z-index: 0;
+
+}
+
+.TitleCar{
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    z-index: 100;
+}
+
+@keyframes maurice {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-610px);
+    }
+    50% {
+        transform: translateX(-1220px);
+    }
+    75% {
+            transform: translateX(-1830px);
+        }
+    100% {
+        transform: translateX(0);
+    }
 }
