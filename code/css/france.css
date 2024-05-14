@@ -15,8 +15,9 @@ h1 {
 }
 
 .gbox {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .istp {
@@ -24,9 +25,10 @@ h1 {
 }
 
 .cbox {
-    border: solid;
+    border: thick double;
     font-size: 22px;
     padding: 5px;
+    margin: 5px;
 }
 
 .cbox h2 {
@@ -34,15 +36,17 @@ h1 {
     justify-content: center;
 }
 
-.cbox img {
+.imgbox {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .sbox {
-    border: solid;
+    border: thick double;
     font-size: 22px;
-    /* margin-left: 230px; */
+    padding: 5px;
+    margin: 5px;
 }
 
 .sbox h2 {
@@ -51,12 +55,35 @@ h1 {
 }
 
 .pbox {
-    border: solid;
+    border: thick double;
     font-size: 22px;
-
+    padding: 5px;
+    margin: 5px;
 }
 
 .pbox h2 {
     display: flex;
     justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.eiffel {
+    width: 50%;
+}
+
+.boxinvisible {
+    text-align: center;
+}
+
+.adt {
+    width: 45%;
+}
+
+.versailles {
+    width: 65%;
 }
