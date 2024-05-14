@@ -12,9 +12,13 @@
     </header>
     <main>
     <h1>MALAISIE</h1>
-    <img class= "plagemalaisie"src="../../assets/image/maïla/kualalampur.jpeg" alt="plagemalaisie">
-    <h2>Bienvenue en Malaisie</h2>
-    <p>La Malaisie est un État d'Asie du Sud-Est, la Malaisie est située à environ 200 km au nord de l'équateur. Sa capitale historique est Kuala Lumpur, sa capitale administrative est Putrajaya, et sa superficie est de 330 803 km2.</p>
+    <img class= "images"src="../../assets/image/maïla/kualalampur.jpeg" alt="kualalampur">
+    <h2>Kuala Lampur, capitale historique</h2>
+    <img class= "images"src="../../assets/image/maïla/plagemalaisie.jpg" alt="plagemalaisie">
+    <h2>Plage de Langkawi</h2>
+    <img class= "images"src="../../assets/image/maïla/MontKinabalu.jpeg" alt="montkinabalu">
+    <h3>Mont Kinabalu</h3>
+    <p></p>
     </main>
     <footer>
 
