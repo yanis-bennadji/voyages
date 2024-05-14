@@ -12,7 +12,7 @@
     </header>
     <main>
     <h1>MALAISIE</h1>
-    <img class= "plagemalaisie"src="../../assets/image/maïla/plagemalaisie.jpg" alt="plagemalaisie">
+    <img class= "plagemalaisie"src="../../assets/image/maïla/kualalampur.jpeg" alt="plagemalaisie">
     </main>
     <footer>
 

@@ -3,9 +3,11 @@
         color: blue;
         font-size: small;
         margin-left: 1cm;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
     }
     .plagemalaisie{
-        height:75px;
+        width:100%;
     }
 
 }
