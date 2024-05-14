@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.smenu{
+    background-color: #003D1F;
+    color: aliceblue;
+}
+.simg{
+    display: flex;
+}
+.algmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.algt{
+    text-align: center;
+}
+.imgcarte{
+    width: 50%;
+    height:350px ;
+}
+.imgdrp{
+    width: 50%;
+    height: 350px;
+}
+.scaroussel1{
+    width: 400px;
+    overflow: hidden;
+    border: 2px solid aliceblue;
+}
+.caroussel1{
+    display: flex;
+    animation-duration: 30s;
+    animation-name: imgalg;
+    animation-iteration-count: infinite;
+} 
+@keyframes imgalg{
+    0%{
+        transform: translateX(0);
+    }
+    12.5%{
+        transform: translateX(-400px);
+    }
+  25%{
+    transform: translateX(-800px);
+}
+37.5%{
+    transform: translateX(-1200px);
+}
+50%{
+    transform: translateX(-1600px);
+}
+62.5%{
+    transform: translateX(-2000px);
+}
+75%{
+    transform: translateX(-2400px);
+}
+87.5%{
+    transform: translateX(-2800px);
+}
+100%{
+    transform: translateX(0);
+}
+}
+.imgcaroussel1{
+    width: 400px;
+    height: 500px;
+}  
+.carpar{
+    display: flex;
+}
+.par{
+    margin: 50px;
+    font-size: 20px;
+background-image: url(../../assets/image/hamza/drpalg.png);
+background-size: cover;
+border: 2px solid black;
+padding: 20px;
+}
+
+    
+
+    
