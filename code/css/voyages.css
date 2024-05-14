@@ -1,19 +1,15 @@
-/* CSS index */
-
-/* CSS for the _Header */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.container {
+.sectionHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: black;
     color: #fff;
 }
 
@@ -40,24 +36,24 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: lightsalmon;
 }
 
-.dropdown-menu {
+.menu-deroulant {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: black;
 }
 
-.dropdown:hover .dropdown-menu {
+.deroulant:hover .menu-deroulant {
     display: block;
 }
 
-.dropdown-menu li {
+.menu-deroulant li {
     margin: 0;
 }
 
-.dropdown-menu li a {
+.menu-deroulant li a {
     color: #fff;
     padding: 10px 15px;
     display: block;
@@ -65,6 +61,36 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.dropdown-menu li a:hover {
-    background-color: #555;
+.menu-deroulant li a:hover {
+    background-color: black;
+}
+
+
+.menu-deroulant {
+    display: none;
+    position: absolute;
+    background-color: black;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.deroulant:hover .menu-deroulant {
+    display: block;
+    opacity: 1;
+}
+
+
+.sous-menu-deroulant {
+    display: none;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 100%;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.menu-deroulant li:hover .sous-menu-deroulant {
+    display: block;
+    opacity: 1;
 }
