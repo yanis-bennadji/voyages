@@ -105,3 +105,34 @@ nav ul li a:hover {
 /* CSS for the main of the index.php */
 
 
+h1, p {
+    margin-left: 10px;
+    
+}
+
+.planisphere {
+    width: 35vw;
+    
+}
+
+.section1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drapeau-index {
+    float: left;
+    width: 150px;
+    object-fit: cover;
+    margin: 10px;
+    
+}
+
+.section2 {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: lightgray;
+}
