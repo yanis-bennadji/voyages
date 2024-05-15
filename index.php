@@ -1,13 +1,12 @@
 <!-- index -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travellers</title>
+    <title>Header</title>
     <link rel="stylesheet" href="./code/css/voyages.css">
-    
 </head>
 <body>
 
@@ -60,7 +59,7 @@
             </a>
 
             <a href="">
-            <img class="drapeau-index" src="./assets/image/yanis/drapeau-palestine.png" alt="">
+            <img class="drapeau-index" src="./assets/image/yanis/drapeau-japon.png" alt="">
 
             </a>
 
@@ -90,13 +89,16 @@
             </a>
         </section>
 
-        <section>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex provident sequi a tempora doloremque illum commodi mollitia ipsa illo pariatur, earum cum deserunt veniam, necessitatibus est iure dignissimos vel.</p>
-        </section>
+       
 
     </main>
 
-    
+    <footer>
+            <?php
+            include '../voyages/code/page/_Footer.php';
+            ?>
+
+    </footer>
 
     
 </body>

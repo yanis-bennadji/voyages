@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bienvenido </title>
+    <link rel="stylesheet" href="../../code/css/voyages.css">
+    <link rel="stylesheet" href="../css/italie.css">
 </head>
 <body>
 
@@ -14,13 +16,21 @@
 
     </header>
 
-    <section>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, pariatur illum vel sed iste non ex ab quo cupiditate rerum odio! Ullam fugit repellendus tempore dolorum sequi pariatur cumque dignissimos?</p>
+    <main>
+        
+    <section class="titleFlag">
+        <label class="vert">IT<span class="blanc">AL</span><span class="rouge">IE</span></label>
+
     </section>
 
-    qosdiljhdsiyfksd
+    </main>
 
-    <img src="../../assets/image/yanis/screen.png" alt="">
+
+    <footer>
+        <?php
+        include '../page/_Footer.php';
+        ?>
+    </footer>
     
 </body>
 </html>

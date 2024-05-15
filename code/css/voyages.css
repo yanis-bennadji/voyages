@@ -102,6 +102,31 @@ nav ul li a:hover {
     margin-top: 115px;
 }
 
+
+
+
+
+/* CSS for the Footer */
+
+.footertest {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logoFooter {
+    width: 10vw;
+}
+
+.footertest2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* CSS for the main of the index.php */
 
 
@@ -127,7 +152,15 @@ h1, p {
     width: 150px;
     object-fit: cover;
     margin: 10px;
+    transition: transform 0.3s ease;
     
+
+    
+}
+
+.drapeau-index:hover {
+    transition: all .3s ease-in;
+    transform: scale(1.10);
 }
 
 .section2 {
