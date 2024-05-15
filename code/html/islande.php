@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/islande.css" ?t="<?=time();?> ">
+    <link rel="stylesheet" href="../css/islande.css" ?t="<?= time(); ?> ">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>L'Islande</title>
 </head>
 
@@ -34,10 +36,22 @@
             <img src="../../assets/image/adham/islandemontagne.jpg" alt="">
         </article>
         <div class="videoislande">
-        <iframe width="700vw" height="300vw" src="https://www.youtube.com/embed/7i_kLFuCUnA" title="L&#39;Islande en trois minutes : le pays du feu et de la glace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="699vw" height="300vw" src="https://www.youtube.com/embed/7i_kLFuCUnA"
+                title="L&#39;Islande en trois minutes : le pays du feu et de la glace" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img src="../../assets/image/adham/lune-removebg-preview.png" alt="">
         </div>
-                
-            
+        <div class="textislande">
+        <p>L'Islande est une île volcanique située dans l'Atlantique Nord,
+            à mi-chemin entre l'Europe et l'Amérique du Nord.
+            Avec une superficie de 103 000 km²,
+            c'est le pays insulaire le plus grand d'Europe. Entre champs de lave, glaciers impressionnants, geysers et
+            sources chaudes, c'est un environnement naturel unique et spectaculaire.</p>
+        </div>
+        
+
+
 
     </main>
 </body>
