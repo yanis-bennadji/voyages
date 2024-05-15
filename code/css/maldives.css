@@ -1,14 +1,25 @@
 
 
-.maldivesplage{
-    width: 100%;
-    height: 300px;
-
-}
 
 .descriptionMaldives{
    text-align: center;
 }
+
+ .descriptionMaldives {
+     
+     background-image: url(../../assets/image/dounayha/maldivesPlage.jpg); 
+    background-size: cover; 
+ background-position: center; 
+ width: 100%;
+ height: 300px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: rgb(253, 253, 253);
+ font-size: x-large;
+ } 
 
 .descriptionH2{
     text-align: center;
@@ -32,6 +43,7 @@ p{
 .Container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 10px;
    
 }
