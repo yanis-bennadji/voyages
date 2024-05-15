@@ -53,10 +53,51 @@
              Profitez de la mer dans nos incroyables villas sur pilotis pour un séjour tropical inoubliable aux Maldives.
              </p>
              </section>
-             
+
             </section>
        
-               
+                 <section class="ContainerImages">
+                    <section>
+                            <img src="../../assets/image/dounayha/image1.jpg" alt="">
+                        <h2>
+                            SOINS NATURELS
+                        </h2>
+                        <p>
+                        Découvrez notre approche unique intégrant la médecine ayurvédique aux thérapies traditionnelles dans notre refuge face à l'océan. Profitez de soins revitalisants pour le visage et le corps inspirés par mère Nature dans notre cabine de soin unique sur pilotis entourée par les eaux azur de l'océan Indien.
+                        </p>
+                    </section>
+
+                       <section>
+                       <img src="../../assets/image/dounayha/image2.jpg" alt="">
+                        <h2>
+                            DEPENSEZ-VOUS
+                        </h2>
+                        <p>
+                        Renouez avec la nature tout en gardant la forme grâce à notre espace fonctionnel en extérieur et notre centre de fitness face à la mer.  Détendez ensuite vos muscles en profondeur et restaurez votre équilibre dans notre exceptionnelle piscine watsu, la première du genre aux Maldives.
+                        </p>
+                       </section>
+
+                       <section>
+                       <img src="../../assets/image/dounayha/image3.jpg" alt="">
+                       <h2>
+                        JETEZ L'ANCRE
+                       </h2>
+                        <p>
+                        Voguez au milieu du bleu infini, laissez le quotidien derrière vous en participant à des pique-niques uniques dans des criques isolées, vivez une expérience inoubliable en nageant aux côtés des requins, des raies et des tortues ou restez à flot à bord d'un canoë, d'un kayak et d'une planche à voile.
+                        </p>
+                       </section>
+
+                       <section>
+                       <img src="../../assets/image/dounayha/image4.jpg" alt="">
+                       <h2>
+                        PURE DETENTE
+                       </h2>
+                       <p>
+                       Plongez vos orteils dans le sable doux et évadez-vous au son des vagues. Détendez-vous en vous imprégnant de l'atmosphère insulaire et relaxez-vous dans les piscines à débordement du resort. Vivez au rythme de l'île et succombez à notre paradis maldivien.
+                       </p>
+                       </section>
+                       
+                 </section>
           
 
     </main>
