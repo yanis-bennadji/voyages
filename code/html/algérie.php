@@ -73,7 +73,8 @@
   
  
 </section>
- <h2 class="tastim" id="lieux">Lieux à visiter</h2> 
+ <h2 class="tastim" id="lieux">Lieux à visiter</h2>
+ <h2 class="parc">Timgad</h2> 
 <section class="stimgad">
   <div>
   <p class="ptimgad">Timgad ou Thamugadi (colonie Marciana Traiana Thamugadi en latin), surnommée la <br> « Pompéi de l'Afrique du Nord »1 est une cité antique située sur le territoire de la commune <br> homonyme de Timgad, dans la wilaya de Batna dans la <br> région des Aurès, au Nord-Est de l'Algérie.</p>
@@ -97,7 +98,7 @@
   </section>
  
 </section>
-<h2>Parc culturel du Tassili</h2>
+<h2 class="parc">Parc culturel du Tassili</h2>
 
 <section>
   <div>
