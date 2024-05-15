@@ -51,7 +51,7 @@
     <h3>
         Hymne nationale de la France
     </h3>
-    <iframe src="../../assets/image/malik/marseillaise.mp4" title="Hymne Francaise" width="1320" height="300"></iframe>
+    <iframe class="hymnen" src="../../assets/image/malik/marseillaise.mp4" title="Hymne Francaise" width="1320" height="300"></iframe>
     <h3>
         Les monuments
     </h3>
@@ -72,6 +72,6 @@
           <img class="versailles" src="../../assets/image/malik/versailles.jpg" alt="chateau de versailles">
           <p>
             Le Château de Versailles, résidence royale emblématique située près de Paris, est un chef-d'œuvre de l'architecture française. Construit au XVIIe siècle sous la direction de Louis XIV, il est renommé pour sa splendeur et son opulence.
-          </p>  
+          </p>
 </body>
 </html>

@@ -27,7 +27,7 @@ h1 {
 .cbox {
     border: thick double;
     font-size: 22px;
-    padding: 5px;
+    padding: 8px;
     margin: 5px;
 }
 
@@ -45,7 +45,7 @@ h1 {
 .sbox {
     border: thick double;
     font-size: 22px;
-    padding: 5px;
+    padding: 8px;
     margin: 5px;
 }
 
@@ -57,7 +57,7 @@ h1 {
 .pbox {
     border: thick double;
     font-size: 22px;
-    padding: 5px;
+    padding: 8px;
     margin: 5px;
 }
 
@@ -78,12 +78,94 @@ h3 {
 
 .boxinvisible {
     text-align: center;
+    padding: 20px;
 }
 
 .adt {
-    width: 45%;
+    width: 29%;
 }
 
 .versailles {
     width: 65%;
+}
+
+@media screen and (max-width: 430px) {
+   * {
+    margin: 0px;
+    padding: 0px;
+   }
+
+   body {
+       /*margin: 3px;*/
+       background: linear-gradient(
+            to left,
+            red 35%,
+            white 35% 65%,
+            rgb(2, 59, 124) 65%
+        );
+      margin: 0px;
+      padding: 0px;
+      width: 96vw;
+   }
+
+    h1 {
+       /*display: flex;
+       justify-content: space-evenly;
+       */
+       margin: auto 0;
+       width: 96vw;
+        font-size: 26px;
+    }
+
+    
+    h3 {
+        /*display: flex;
+        justify-content: center;
+        */
+        margin: auto 0;
+        width: 96vw;
+        font-size: 21px;
+}
+
+    .gbox {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 96vw;
+    }
+
+    .istp {
+        width: 20vw;
+    }
+
+    .cbox {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .hymnen {
+        width: 80vw;
+        margin-left: 8vw;
+    }
+
+    .sbox {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .pbox {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .adt {
+        margin-left: 5vw;
+    }
 }
