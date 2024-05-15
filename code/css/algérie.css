@@ -30,12 +30,19 @@ body{
     overflow: hidden;
     border: 2px solid aliceblue;
 }
+.scaroussel2{
+    overflow: hidden;
+    border: 2px solid aliceblue;
+    width: 450px;
+}
 .caroussel1{
     display: flex;
     animation-duration: 30s;
     animation-name: imgalg;
     animation-iteration-count: infinite;
+    animation-delay: 3s;
 } 
+
 @keyframes imgalg{
     0%{
         transform: translateX(0);
@@ -90,17 +97,81 @@ padding: 20px;
     padding: 30px;
 }
 .salger{
-    background-image: url(../../assets/image/hamza/641px-Alger-Aurore.jpg);
-    background-size: contain;
+    display: flex;
 }
 .palger{
-    font-size: 30px;
-    color: aliceblue;
+    font-size: 20px;
+}
+.imgalger{
+    width: 900px;
+    height: 300px;
 }
 a{
     text-decoration: none;
     color: aliceblue;
 }
-    
+a:hover{
+    font-size: 110%;
+} 
+.stimgad{
+    display: flex;
+    justify-content: space-between;
+}
+.divimgtim{
+    display: flex;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-name: imgtim;
+}
+@keyframes imgtim {
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-500px);
+    }
+  20%{
+    transform: translateX(-1000px);
+}
+30%{
+    transform: translateX(-1500px);
+}
+40%{
+    transform: translateX(-2000px);
+}
+50%{
+    transform: translateX(-2500px);
+}
+60%{
+    transform: translateX(-3000px);
+}
+70%{
+    transform: translateX(-3500px);
+}
+80%{
+    transform: translateX(-4000px);
+}
+90%{
+    transform: translateX(-4500px);
+}
+100%{
+    transform: translateX(0);
+}
+}
+.imgcaroussel2{
+    width: 500px;
+    height: 550;
+   
+}
+.dcrousssel1{
+    position: relative;
+    top: 10px;
+    z-index: 100; 
+}
+.ptimgad{
+    line-height: 33px;
+}
 
+   
     
