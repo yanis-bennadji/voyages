@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container1 h1{
+    text-align: center;
+    padding: 2vh;
+    font-family: "Poetsen One", sans-serif;
+}
+.container2{
+    display: flex;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(216, 216, 198);
+    width: 100vw;
+    height: 7vw;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+@media(max-width:412px){
+    .container1 h1{
+        text-align: center;
+        width: 100vw;
+      
+    }
+    .imagemobile1{
+        width: 100%;
+    }
+    .container2{
+        border: none;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+
+}
