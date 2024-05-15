@@ -53,7 +53,7 @@
              Profitez de la mer dans nos incroyables villas sur pilotis pour un séjour tropical inoubliable aux Maldives.
              </p>
              </section>
-
+             
             </section>
        
                  <section class="ContainerImages">
@@ -77,15 +77,15 @@
                         </p>
                        </section>
 
-                       <section>
-                       <img src="../../assets/image/dounayha/image3.jpg" alt="">
+                        <!-- <section>
+                       <img src="../../assets/image/dounayha/image3.1.jpg" alt="">
                        <h2>
                         JETEZ L'ANCRE
                        </h2>
                         <p>
                         Voguez au milieu du bleu infini, laissez le quotidien derrière vous en participant à des pique-niques uniques dans des criques isolées, vivez une expérience inoubliable en nageant aux côtés des requins, des raies et des tortues ou restez à flot à bord d'un canoë, d'un kayak et d'une planche à voile.
                         </p>
-                       </section>
+                       </section>  -->
 
                        <section>
                        <img src="../../assets/image/dounayha/image4.jpg" alt="">
@@ -96,7 +96,7 @@
                        Plongez vos orteils dans le sable doux et évadez-vous au son des vagues. Détendez-vous en vous imprégnant de l'atmosphère insulaire et relaxez-vous dans les piscines à débordement du resort. Vivez au rythme de l'île et succombez à notre paradis maldivien.
                        </p>
                        </section>
-                       
+
                  </section>
           
 

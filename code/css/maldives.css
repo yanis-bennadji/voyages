@@ -45,14 +45,20 @@ padding: 10px;}
 }
 
 .ContainerImages{display: flex;
-flex-direction: row;}
+flex-direction: row;
+} 
+.ContainerImages p{
+    padding: 10px;
+}
 
+ 
+ 
 @media screen and (max-width: 1000px) {
     .Container {
      display: block;
      width: 300px;
     }
-  }
+  } 
 
 
   @media screen and (max-width: 500px) {
