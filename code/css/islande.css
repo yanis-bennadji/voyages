@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Kanit;
+}
+body {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+/*Image 1 lac glace */
+
+.bgimageislande {
+  display: flex;
+}
+
+.bgimageislande img {
+  width: 100%;
+}
+
+.bgimageislande h2 {
+  position: absolute;
+  font-size: 5vw;
+  color: aliceblue;
+  top: 2vw;
+  left: 45%;
+}
+.bgimageislande h1 {
+  position: absolute;
+  font-size: 8vw;
+  color: aliceblue;
+  top: 40vw;
+  left: 2vw;
+  text-shadow: rgba(199, 183, 109, 0.5);
+}
+/*Image 2 cascade*/
+
+.bgimageislande2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bgimageislande2 img {
+  width: 30%;
+}
+.bgimageislande2 h2 {
+  position: absolute;
+  text-align: center;
+  color: aliceblue;
+  border: solid 1px aliceblue;
+  background-color: rgba(240, 248, 255, 0.055);
+  font-size: 2.4vw;
+  top: 55.8vw;
+  margin: 0px 29.8vw 0px 29.8vw;
+}
+/*Image 3 montagne*/
+
+.bgimageislande3 {
+  display: flex;
+}
+.bgimageislande3 img {
+  width: 100%;
+}
+.videoislande iframe {
+  position: absolute;
+  top: 78vw;
+  left: 3vw;
+  box-shadow: 100px;
+
+}
