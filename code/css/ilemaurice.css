@@ -26,17 +26,24 @@
 
 .mauricetitre{
     color: #046276;
-    font-family: square peg;
-    font-size: 90px;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 50px;
     display: inline-block;
+    padding: 30px;
 }
 
 #caroussel{
     width: 610px;
     overflow: hidden;
-    border: 5px solid #f0f2f3;
+    border: 5px solid #046276;
     border-radius: 5%;
     
+}
+
+.caroussel1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .maurice{
@@ -79,4 +86,8 @@
     flex-direction: row;
     justify-content: center;
     
+}
+
+.texteimage p{
+    padding: 10px;
 }

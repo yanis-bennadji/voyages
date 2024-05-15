@@ -21,9 +21,10 @@
          La capitale Port-Louis, qui est aussi la plus grande ville de l'île Maurice, est située dans le sud-ouest de l'île.
     </p>
     
-    <img src="../../assets/image/sabrina/cartemaurice.jpg">
+    <img src="../../assets/image/sabrina/mauri-map.png">
     </div>
     
+    <section class="caroussel1">
     <div id="caroussel">
             <div class="maurice">
                 <div>
@@ -44,6 +45,7 @@
             </div>
             </div>
         </div>
+        </section>
 
         <div class="texteimage">
         <p>Casela est l'un des parcs de loisirs et d'attractions les plus populaires de l'île Maurice, offrant une variété d'activités amusantes et passionnantes aux particuliers, aux familles et aux entreprises. 
