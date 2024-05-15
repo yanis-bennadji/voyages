@@ -14,13 +14,18 @@ p{
     color:white;
     font-family: cursive;
 }
-figure{
+ figure{
     display: flex;
-    justify-content:space-between;
-}
+    flex-direction:row;
+ }
+    
+
 img{
     height: 200px;
 } 
+section{
+    margin-left:1cm;
+}
 }
 
 
