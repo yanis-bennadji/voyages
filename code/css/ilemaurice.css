@@ -1,6 +1,14 @@
 @media screen and(min-width:320px) {
-    ile-maurice-1: { width: 100%;}
+    ile-maurice-1: {
+         width: 100%;
+        }
 }
+
+
+/*body{
+    background-color: green;
+}*/
+
 
 .mauricehaut{
     background-color: #046276
@@ -21,11 +29,12 @@
     overflow: hidden;
     border: 5px solid #f0f2f3;
     border-radius: 5%;
+    
 }
 
 .maurice{
     display: flex;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-name: maurice;
     animation-iteration-count: infinite;
     z-index: 0;
@@ -36,7 +45,7 @@
     font-size: xx-large;
     text-align: center;
     position: relative;
-    top: 20px;
+    top: 10px;
     z-index: 100;
 }
 
@@ -56,4 +65,11 @@
     100% {
         transform: translateX(0);
     }
+}
+
+.texteimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 9px;
 }

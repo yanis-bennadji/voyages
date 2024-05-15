@@ -26,15 +26,43 @@
     <div id="caroussel">
             <div class="maurice">
                 <div>
-            <p class="TitleCar">texte</p>
+            <p class="TitleCar">CASELA NATURE PARKS</p>
             <img src="../../assets/image/sabrina/caselanatureparks.jpg">
-</div>
+            </div>
+            <div>
+            <p class="TitleCar">ILE AUX CERFS</p>
             <img src="../../assets/image/sabrina/ileauxcerfs.jpg">
+            </div>
+            <div>
+            <p class="TitleCar">MORNE BRABANT</p>
             <img src="../../assets/image/sabrina/mornebrabant.jpg">
+            </div>
+            <div>
+            <p class="TitleCar">PLAGE FLIC EN FLAC</p>
             <img src="../../assets/image/sabrina/plageflicenflac.png">
-
+            </div>
             </div>
         </div>
 
+        <div class="texteimage">
+        <p>Casela est l'un des parcs de loisirs et d'attractions les plus populaires de l'île Maurice, offrant une variété d'activités amusantes et passionnantes aux particuliers, aux familles et aux entreprises. 
+            Le parc s'étend sur plus de 350 hectares et est divisé en 5 zones, chacune ayant sa propre caractéristique.
+        Les 5 zones sont Thrill Mountain, Predator Kingdom, African Safari,
+        Pangia Birds and Rides et World of Events.
+        </p>
+        <p>Le lagon de Trou d'Eau Douce sur la côte Est de l'île Maurice abrite un joyau : l'île aux Cerfs. Cet îlot inhabité est l'un des plus beaux sites de l'île.
+             Un site incontournable lors de vos prochaines vacances à l'île Maurice. 
+              L’ile aux cerfs est une ile privée d’environ 100 hectares, entourée d’un lagon aux eaux cristalines et de plages de sable blanc.
+             Véritable invitation à la détente et au farniente !
+        </p>
+        <p>Coin de paradis à plus de 550m d'altitude, le Morne Brabant est une imposante montagne située au sud-ouest de l'île Maurice.
+             Étonnant de par son aridité extrême lors de la saison sèche, l'on profite de sa hauteur pour faire des randonnées à flanc de montagne et découvrir des panoramas à couper le souffle.
+             Mais plus qu'une simple destination de trek, le Morne Brabant est aussi réputé pour sa très belle plage et ses hôtels luxueux et authentiques.
+        </p>
+        <p>Pour sortir des clichés touristiques et de la zone hautement prisée qu'est le nord de l'île, tout en profitant de la mer, des excursions et de l'ambiance mauricienne, 
+            Flic en Flac est un coin charmant où il fait bon séjourner. 
+            C'est sur la côte ouest de l'île Maurice que se situe ce splendide village, à l'abri du vent quasiment toute l'année.
+        </p>
+        </div>
 </body>
 </html>
