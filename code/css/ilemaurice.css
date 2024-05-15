@@ -1,5 +1,5 @@
 @media screen and(min-width:320px) {
-    ile-maurice-1: {
+    .mauricehaut {
          width: 100%;
         }
 }
@@ -21,7 +21,14 @@
 .description{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    align-items: center;
+}
+
+.mauricetitre{
+    color: #046276;
+    font-family: square peg;
+    font-size: 90px;
+    display: inline-block;
 }
 
 #caroussel{
@@ -70,6 +77,6 @@
 .texteimage{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 9px;
+    justify-content: center;
+    
 }
