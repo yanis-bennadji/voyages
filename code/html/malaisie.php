@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malaisie</title>
-    <link rel="stylesheet" href="../css/malaisie.css">
+    <link rel="stylesheet" href="../css/malaisie.css?t=<?= time(); ?>"/>
 </head>
 <body>
     <header>
@@ -23,6 +23,7 @@
     <p>Le Mont Kinabalu est un site touristique incontournable situé à Kota Belud, en Malaisie. Cette montagne majestueuse est la plus haute de tout le pays, offrant des vues à couper le souffle depuis son sommet. L'ascension du Mont Kinabalu est une expérience unique en son genre, permettant aux visiteurs de se rapprocher de la nature et de profiter de paysages spectaculaires. De plus, la région environnante regorge d'autres attractions intéressantes, telles que le parc national de Kinabalu, où l'on peut découvrir une faune et une flore exceptionnelles. Les amateurs de randonnée apprécieront également les sentiers pittoresques et les cascades environnantes.</p>
     </main>
     <footer>
+        
 
     </footer>
     
