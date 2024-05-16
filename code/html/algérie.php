@@ -15,10 +15,10 @@
    
       <section class="smenu">
        <menu class="algmenu" >
-         <h4 > Histoire</h4>
-         <a href="#geo"><h4>Géographie</h4></a>
-         <a href="#capitale"><h4>Capitale</h4></a>
-          <a href="#lieux"><h4 >Lieux à visiter</h4></a>
+         <a class="menu" href="algérie.php"><h4 > Accueil</h4></a>
+         <a class="menu" href="#geo"><h4>Géographie</h4></a>
+         <a class="menu" href="#capitale"><h4>Capitale</h4></a>
+          <a class="menu" href="#lieux"><h4 >Lieux à visiter</h4></a>
         </menu>
         </section>
 <section class="carpar">
@@ -63,6 +63,7 @@
 <p class="pgeo">Avec une superficie de 2 381 741 km2, c'est le dixième plus grand pays au monde et le plus grand pays d'Afrique du monde arabe et du bassin méditerranéen. Elle partage plus de 6 343 km de frontières terrestres, avec la Tunisie au nord-est, la Libye à l'est, le Niger au sud-est, le Mali au sud-ouest, la Mauritanie et le Sahara occidental à l'ouest, et enfin le Maroc au nord-ouest12.</p>
 </section>
 <h2 id="capitale">Capitale</h2>
+<h2 class="parc">Alger</h2>
 <section class="salger">
   <div>
   <p class="palger">Alger (en arabe : الجزائر العاصمة, Al-Jazāʾir El ʿĀṣimanote 1,2, en berbère : ⵍⴷⵣⴰⵢⵔ ⵜⴰⵎⴰⵏⴰⵖⵜ, Ldzayer tamanaɣt ou Lezzayer tamanaɣt3), surnommée El Bahdja (« la joyeuse »), El Mahrussa (« la bien-gardée ») ou El Beida (« la blanche »), est la capitale de l'Algérie et en est la ville la plus peuplée.</p>
