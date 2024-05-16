@@ -77,7 +77,7 @@
                        </section>
 
                         <section>
-                           <img src="../../assets/image/dounayha/image51.jpg" alt="">
+                           <img src="../../assets/image/dounayha/image3.1.jpg" alt="">
                           <h3>
                           JETEZ L'ANCRE
                           </h3>
@@ -95,7 +95,7 @@
                          Plongez vos orteils dans le sable doux et évadez-vous au son des vagues. Détendez-vous en vous imprégnant de l'atmosphère insulaire et relaxez-vous dans les piscines à débordement du resort. Vivez au rythme de l'île et succombez à notre paradis maldivien.
                           </p>
                        </section>
-            </section>
+                    </section>
           
 
     </main>
