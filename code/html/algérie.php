@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algérie</title>
-    <link rel="stylesheet" href="../css/algérie.css">
+    <link rel="stylesheet" href="../css/algérie.css"?t=<?= time(); ?> />
 </head>
 <body>
   <main>
@@ -102,7 +102,7 @@
 
 <section>
   <div>
-  <p class="ptimgad">Le parc culturel du Tassili (anciennement parc national du Tassili jusqu'à 20111), est un parc national algérien, <br> situé près de la ville de Djanet, dans la wilaya de Illizi, dans le Sud de l'Algérie2.</p>
+  <p class="ptimgad">Le parc culturel du Tassili (anciennement parc national du Tassili jusqu'à 2011), est un parc national algérien, <br> situé près de la ville de Djanet, dans la wilaya de Illizi, dans le Sud de l'Algérie2.</p>
   <p class="ptimgad">Couvrant une superficie de 138 000 km2, il est le premier parc d'Algérie par la taille. <br> Le parc englobe une grande partie du massif du Tassili n'Ajjer, l'erg Admer et la Tadrart Rouge3.</p>
   <p class="ptimgad">L'occupation humaine de la région remonte à plus de 10 000 ans, lorsque des hommes néolithiques <br> l'arpentaient pour chasser et pratiquer la cueillette.</p>
   <p class="ptimgad">Il est classé depuis 1982 au patrimoine mondial4 et réserve de biosphère depuis 1986 par l'UNESCO5,6. <br> Il est, par le nombre de ses gravures rupestres, le premier site à l'échelle mondiale.</p>
@@ -110,18 +110,19 @@
   </div>
  <section>
   <div>
-    <img src="../../assets/image/hamza/tasa.jpg" alt="">
+    <img class="" src="../../assets/image/hamza/tasa.jpg" alt="">
     <img src="../../assets/image/hamza/tasb.jpg" alt="">
     <img src="../../assets/image/hamza/tasc.jpg" alt="">
     <img src="../../assets/image/hamza/tasd.jpg" alt="">
     <img src="../../assets/image/hamza/tase.jpg" alt="">
-    <img src="../../assets/image/hamza/tasef.jpg" alt="">
-    <img src="../../assets/image/hamza/taseg.jpg" alt="">
+    <img src="../../assets/image/hamza/tasf.jpg" alt="">
+    <img src="../../assets/image/hamza/tasg.jpg" alt="">
   </div>
  </section>
 </section>
 
 
 </main>
+
   </body>
 </html>

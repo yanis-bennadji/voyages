@@ -171,10 +171,33 @@ a:hover{
 }
 .ptimgad{
     line-height: 33px;
+    font-weight: 700;
 }
 .parc{
     text-align: center;
-    background-color: (black,green,blue);
+}
+@media screen and (max-width:412px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 140%;
+    }
+    .carpar{
+        display: block;
+    } 
+    .salger{
+        display: block;
+    }
+    section{
+        justify-content: center;
+    } 
+    .stimgad{
+        display: block;
+    } 
+    .scaroussel1,.scaroussel2{
+        justify-content: center;
+        
+    }
 }
 
    
