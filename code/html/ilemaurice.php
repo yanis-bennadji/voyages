@@ -72,7 +72,7 @@
             <section class="leminefrit">
         <img src="../../assets/image/sabrina/leminefrit.jpg">
         <p>Ce plat traditionnel mauricien, très populaire auprès des touristes est composé de nouilles chinoises sautées 
-            et cuites dans des épices et des sauces asiatiques avant d'être garnies de viandes et d'une omelette. 
+            et cuites dans des épices et des sauces asiatiques avant d'être <br> garnies de viandes et d'une omelette. 
         </p>
         </section>
         <section class="bolrenverse">
