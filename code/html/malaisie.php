@@ -29,6 +29,11 @@
                     <p>Le Mont Kinabalu est un site touristique incontournable situé à Kota Belud, en Malaisie. Cette montagne majestueuse est la plus haute de tout le pays, offrant des vues à couper le souffle depuis son sommet. L'ascension du Mont Kinabalu est une expérience unique en son genre, permettant aux visiteurs de profiter de paysages spectaculaires. Les amateurs de randonnée apprécieront également les cascades environnantes.</p>
                 </section>
             </figure>
+            <h3>Où se situe la Malaisie?</h3>
+            <section class="carte">
+            <img class= "minicarte"src="../../assets/image/maïla/cartemalaisie.png" alt="">
+            </section>
+
     </main>
     <footer>
         
