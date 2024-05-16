@@ -13,32 +13,40 @@ body {
     padding: 10px 20px;
     background-color: black;
     color: #fff;
+    
 }
+
+main {}
 
 .logo {
     font-size: 24px;
     font-weight: bold;
 }
 
-nav ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-nav ul li {
+nav > ul > li {
     margin-right: 20px;
 }
 
-nav ul li a {
+nav > ul > li > a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
+nav > ul > li > a:hover {
     color: lightsalmon;
+}
+
+nav {
+    z-index: 100;
+    background-color: black;
 }
 
 .menu-deroulant {
@@ -47,15 +55,15 @@ nav ul li a:hover {
     background-color: black;
 }
 
-.deroulant:hover .menu-deroulant {
+.deroulant:hover > .menu-deroulant {
     display: block;
 }
 
-.menu-deroulant li {
+.menu-deroulant > li {
     margin: 0;
 }
 
-.menu-deroulant li a {
+.menu-deroulant > li > a {
     color: #fff;
     padding: 10px 15px;
     display: block;
@@ -63,7 +71,7 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.menu-deroulant li a:hover {
+.menu-deroulant > li > a:hover {
     background-color: black;
 }
 
@@ -76,7 +84,7 @@ nav ul li a:hover {
     opacity: 0;
 }
 
-.deroulant:hover .menu-deroulant {
+.deroulant:hover > .menu-deroulant {
     display: block;
     opacity: 1;
 }
@@ -131,8 +139,9 @@ nav ul li a:hover {
 
 
 h1, p {
+    margin-bottom: 0;
     margin-left: 10px;
-    
+    margin-top: 0;
 }
 
 .planisphere {
