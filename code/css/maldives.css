@@ -1,4 +1,6 @@
-
+ body{
+    background-color: #eeeebe;
+} 
 
 
 .descriptionMaldives{
@@ -11,7 +13,7 @@
     background-size: cover; 
  background-position: center; 
  width: 100%;
- height: 300px;
+ height: 400px;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -33,7 +35,12 @@
     
 } 
 
-h1,h2{font-family: fantasy;
+h1,h2{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+;text-align: center;}
+
+h3{
+    font-size:larger;
 }
 
 p{
@@ -44,12 +51,27 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+      
+    
    
 }
 
-.Container img{max-width: 400px;
-padding: 10px;}
+.Container img{max-width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Container p{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center; 
+} 
+
+
  
 
 .ContainerImages img{
@@ -58,12 +80,14 @@ padding: 10px;}
 
 .ContainerImages{display: flex;
 flex-direction: row;
+padding: 50px;
 } 
+
 .ContainerImages p{
     padding: 10px;
 }
 
- 
+
  
 @media screen and (max-width: 1000px) {
     .Container {
@@ -79,6 +103,26 @@ flex-direction: row;
     }
   } 
 
+  
+ 
+  @media screen and (max-width: 500px) {
+    .ContainerImages{
+     display: block;
+     text-align: center;
+     
+       width: 100%;  
+     
+    }}
+
+
+    
+
+    
+    
+
+
+    
+  
   
 
 
