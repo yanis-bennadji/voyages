@@ -13,7 +13,7 @@
     <main>
         <h1>MALAISIE</h1>
             <figure>
-                <section>
+                <section class="container">
                     <img class= "images"src="../../assets/image/maïla/kualalampur.jpeg" alt="kualalampur">
                     <h2>Kuala Lampur, capitale historique</h2>
                     <p>La capitale de la Malaisie saura vous intriguer avec ses tours jumelles. Les Tours Petronas regroupent en leur sein des bureaux, des boutiques,un centre multimédia.Elles sont reliées par un skybridge qui se situe à 170 mètres de hauteur. Pour avoir une vue imprenable sur la ville et ses environs, les Tours Petronas sont absolument à faire à Kuala Lumpur.</p>
