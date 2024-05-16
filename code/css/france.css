@@ -1,4 +1,4 @@
-body {
+body { 
     margin: 5px;
     padding: 5px;
     background: linear-gradient(
@@ -89,6 +89,54 @@ h3 {
     width: 65%;
 }
 
+.ski {
+    width: 30vw;
+} 
+
+.plage {
+    width: 30vw;
+}
+
+.ndg {
+    width:30vw;
+}
+
+.sdf {
+    width: 30vw;
+}
+
+.pelele {
+    display: flex;
+    animation-duration: 16s;
+    animation-name: nomsimple;
+    animation-iteration-count: infinite;
+}
+
+.caroussel {
+    margin: auto;
+    width: 30vw;
+    overflow: hidden;
+    border-radius: 12%;
+}
+
+@keyframes nomsimple {
+   0%{
+    transform: translateX(0);
+}
+   25% {
+    transform: translateX(-30vw);
+   } 
+   50% {
+    transform: translateX(-60vw);
+   }
+   75% {
+    transform: translateX(-90vw);
+   }
+   100% {
+    transform: translateX(0);
+   }
+}
+
 @media screen and (max-width: 430px) {
    * {
     margin: 0px;
@@ -167,5 +215,52 @@ h3 {
 
     .adt {
         margin-left: 5vw;
+    }
+
+    .ski {
+        width: 30vw;
+    } 
+    
+    .plage {
+        width: 30vw;
+    }
+    
+    .ndg {
+        width:30vw;
+    }
+    
+    .sdf {
+        width: 30vw;
+    }
+    
+    .pelele {
+        display: flex;
+        animation-duration: 16s;
+        animation-name: nomsimple;
+        animation-iteration-count: infinite;
+    }
+    
+    .caroussel {
+        margin-left: 35vw;
+        width: 30vw;
+        overflow: hidden;
+    }
+    
+    @keyframes nomsimple {
+       0%{
+        transform: translateX(0);
+    }
+       25% {
+        transform: translateX(-30vw);
+       } 
+       50% {
+        transform: translateX(-60vw);
+       }
+       75% {
+        transform: translateX(-90vw);
+       }
+       100% {
+        transform: translateX(0);
+       }
     }
 }

@@ -73,5 +73,18 @@
           <p>
             Le Château de Versailles, résidence royale emblématique située près de Paris, est un chef-d'œuvre de l'architecture française. Construit au XVIIe siècle sous la direction de Louis XIV, il est renommé pour sa splendeur et son opulence.
           </p>
+        </div>
+    </div>
+    <h3>
+        Quelques beau paysage pour vos yeux
+    </h3>
+    <div class="caroussel">
+        <div class="pelele">
+            <img class="ndg" src="../../assets/image/malik/images.jpg" alt="Notre-Dame de la garde">
+            <img class="ski" src="../../assets/image/malik/ski.jpg" alt="Station de sk francaise">
+            <img class="plage" src="../../assets/image/malik/plages.jpg" alt="Plages francaises">
+            <img class="sdf" src="../../assets/image/malik/stade-de-france.jpg" alt="Stade de france">
+        </div>
+    </div>  
 </body>
 </html>
