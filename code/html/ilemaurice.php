@@ -29,7 +29,7 @@
             <div class="maurice">
                 <div>
             <p class="TitleCar">CASELA NATURE PARKS</p>
-            <img src="../../assets/image/sabrina/caselanatureparks.jpg">
+            <img  src="../../assets/image/sabrina/caselanatureparks.jpg">
             </div>
             <div>
             <p class="TitleCar">ILE AUX CERFS</p>
@@ -67,5 +67,21 @@
             C'est sur la côte ouest de l'île Maurice que se situe ce splendide village, à l'abri du vent quasiment toute l'année.
         </p>
         </div>
+
+        <section class="platmaurice">
+            <section class="leminefrit">
+        <img src="../../assets/image/sabrina/leminefrit.jpg">
+        <p>Ce plat traditionnel mauricien, très populaire auprès des touristes est composé de nouilles chinoises sautées 
+            et cuites dans des épices et des sauces asiatiques avant d'être garnies de viandes et d'une omelette. 
+        </p>
+        </section>
+        <section class="bolrenverse">
+        <img src="../../assets/image/sabrina/bolrenverse.jpg">
+        <p>Un bol renversé est un plat mauricien et réunionnais d'origine chinoise.
+             Il s'agit d'un monticule de riz recouvert d'un œuf que l'on place dans l'assiette où il est servi en renversant le bol hémisphérique qui originellement le contient.
+        </p>
+        </section>
+        </section>
+        
 </body>
 </html>
