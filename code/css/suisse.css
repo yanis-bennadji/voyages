@@ -1,39 +1,193 @@
-body{
+body {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    
+    
 }
 
-.container1 h1{
+.container1 h1 {
     text-align: center;
-    padding: 2vh;
     font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
-.container2{
+
+.container2 {
     display: flex;
-    border: none;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     border: 1px solid rgb(216, 216, 198);
     width: 100vw;
     height: 7vw;
     font-family: "PT Sans Narrow", sans-serif;
 }
-@media(max-width:412px){
-    .container1 h1{
+
+.container3 {
+    font-family: cursive;
+    line-height: 5vh;
+    box-shadow: 0px 10px 30px -5px rgb(0, 0, 0, 8);
+    border: 1px solid beige;
+    text-align: center;
+
+}
+
+.container4 {
+    font-family: cursive;
+    line-height: 5vh;
+    box-shadow: 0px 10px 30px -5px rgb(0, 0, 0, 8);
+    border: 1px solid beige;
+    text-align: center;
+
+
+}
+
+.container34 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30vh;
+
+}
+
+.carte img {
+    width: 45vh;
+
+}
+
+.container5 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    
+  }
+  .container5555{
+    display: flex;
+    justify-content: space-around;
+    /*position: relative;
+    top: 40vh;*/
+  }
+  .container55552{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20vh;
+  }
+
+  .titrlieux{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.container5 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container5:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container5:hover .overlay {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay h2 {
+    margin-top: 0;
+  }
+  
+  .overlay p {
+    margin-bottom: 0;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+  
+@media(max-width:500px) {
+    .container1 h1 {
         text-align: center;
         width: 100vw;
-      
+       
+
     }
-    .imagemobile1{
+
+    .imagemobile1 {
         width: 100%;
     }
-    .container2{
+
+    .container2 {
         border: none;
-        display:flex;
-        flex-wrap: wrap;
+        display: flex;
         flex-direction: column;
+
     }
-    
+
+    .container3 {
+        height: 130vh;
+        border: 1px solid beige;
+        box-shadow: 0px 0px 40px -5px rgb(0, 0, 0, 8);
+        margin-left: 4vh;
+        margin-right: 4vh;
+
+
+    }
+
+    .container4 {
+        height: 130vh;
+        border: px solid beige;
+        box-shadow: 0px 0px 40px -5px rgb(0, 0, 0, 8);
+        margin-left: 4vh;
+        margin-right: 4vh;
+        margin-top: 10vh;
+
+    }
+
+    .carte img {
+        width: 30Svh;
+
+    }
+
+    .container34 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+    }
 
 }

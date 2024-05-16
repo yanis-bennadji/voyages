@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <a href="code/html/suisse.php">Suisse</a>
+    <a href="./code/html/suisse.php">Suisse</a>
     
 </body>
 </html>
