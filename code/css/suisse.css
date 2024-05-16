@@ -2,17 +2,49 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    
-    
+
+}
+a{
+    text-decoration: none;
 }
 
-.container1 h1 {
+/*.container1 h1 {
     text-align: center;
     font-family: "Poetsen One", sans-serif;
     text-align: center;
     margin: auto;
     margin-top: 4vh;
     margin-bottom: 4vh;
+}*/
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste la taille de la vidéo pour remplir le conteneur */
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Couleur du texte */
+    text-align: center;
+    font-size: 2rem; /* Taille de police */
+    /* Ajoutez d'autres styles de contenu si nécessaire */
 }
 
 .container2 {
@@ -22,7 +54,9 @@ body {
     border: 1px solid rgb(216, 216, 198);
     width: 100vw;
     height: 7vw;
-    font-family: "PT Sans Narrow", sans-serif;
+    font-family: sans-serif;
+    background-color: #ab0f0f;
+    font-weight: 900;
 }
 
 .container3 {
@@ -56,16 +90,12 @@ body {
 
 }
 
-.container5 {
-    position: relative;
-    width: 300px; /* Ajustez la largeur selon votre besoin */
-    
-  }
+
   .container5555{
     display: flex;
     justify-content: space-around;
     /*position: relative;
-    top: 40vh;*/
+      top: 40vh;*/
   }
   .container55552{
     display: flex;
@@ -79,7 +109,7 @@ body {
     margin-top: 20vh;
 }
 
-.container5 {
+.container5{
     position: relative;
     width: 300px; /* Ajustez la largeur selon votre besoin */
     height: 200px; /* Ajustez la hauteur selon votre besoin */
@@ -99,7 +129,7 @@ body {
     transform: scale(1.1); /* Zoom de l'image au survol */
   }
   
-  .overlay {
+  .overlay1 {
     position: absolute;
     top: 50%; /* Déplace le texte vers le bas */
     left: 50%; /* Déplace le texte vers la droite */
@@ -116,16 +146,179 @@ body {
 
   }
   
-  .container5:hover .overlay {
+  .container5:hover .overlay1 {
     opacity: 1; /* Affiche l'overlay au survol */
     transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
   }
   
-  .overlay h2 {
+  .overlay1 h2 {
     margin-top: 0;
   }
   
-  .overlay p {
+  .overlay1 p {
+    margin-bottom: 0;
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+
+  .container6 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container6:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container6:hover .overlay2 {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay2 h2 {
+    margin-top: 0;
+  }
+  
+  .overlay2 p {
+    margin-bottom: 0;
+    
+  }
+  a{
+    text-decoration: none;
+
+  }
+ .container6 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container6:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container6:hover .overlay2 {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay2 h2 {
+    margin-top: 0;
+  }
+  
+  .overlay2 p {
+    margin-bottom: 0;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .container7 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container7:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay3 {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container7:hover .overlay3 {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay3 h2 {
+    margin-top: 0;
+  }
+  
+  .overlay3 p {
     margin-bottom: 0;
     
   }
@@ -133,6 +326,389 @@ body {
     text-decoration: none;
   }
 
+  .container8 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container8:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay4 {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container8:hover .overlay4 {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay4 h2 {
+    margin-top: 0;
+  }
+  
+  .overlay4 p {
+    margin-bottom: 0;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .container9 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container9:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay5 {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container9:hover .overlay5 {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay5 h2 {
+    margin-top: 0;
+  }
+  
+  .overlay5 p {
+    margin-bottom: 0;
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .container10 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container10:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay6 {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container10:hover .overlay6 {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay6 h2 {
+    margin-top: 0;
+  }
+  
+  .overlay6 p {
+    margin-bottom: 0;
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .container11 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container11 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container11:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay7 {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container11:hover .overlay7 {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay7 h2 {
+    margin-top: 0;
+  }
+  
+  .overlay7 p {
+    margin-bottom: 0;
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .container12 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur selon votre besoin */
+    height: 200px; /* Ajustez la hauteur selon votre besoin */
+   
+  }
+  
+  .container12 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Animation sur l'image */
+    border-radius: 4vh;
+
+  }
+  
+  .container12:hover img {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+  }
+  
+  .overlay8 {
+    position: absolute;
+    top: 50%; /* Déplace le texte vers le bas */
+    left: 50%; /* Déplace le texte vers la droite */
+    transform: translate(-50%, -50%); /* Centre le texte */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute une transition pour le texte */
+    text-decoration: none;
+    border-radius: 4vh;
+    font-family: cursive;
+
+  }
+  
+  .container12:hover .overlay8 {
+    opacity: 1; /* Affiche l'overlay au survol */
+    transform: translate(-50%, -60%); /* Déplace le texte vers le haut */
+  }
+  
+  .overlay8 h2 {
+    margin-top: 0;
+  }
+  
+  .overlay8 p {
+    margin-bottom: 0;
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+.backgroundbouffe{
+ 
+    background-image: url('../../assets/image/ibrahim/backgound1.jpg'); /* Image de fond */
+    background-size: cover; /* Redimensionner l'image pour couvrir tout le conteneur */
+    background-position: center; /* Centrer l'image dans le conteneur */
+}
+
+
+.texte1{
+    font-family: cursive;
+    margin-top: 54vh;
+    padding: 10vh;
+    backdrop-filter: brightness(0.5);
+    color: azure;
+}
+.texte2{
+    box-shadow: 0px 10px 30px -5px rgb(0, 0, 0, 8);
+    border: 1px solid beige;
+    width: 60vh;
+    margin-top: 5vh;
+    font-family: cursive;
+    backdrop-filter: brightness(0.5);
+    color: azure;
+}
+.texte3{
+    box-shadow: 0px 10px 30px -5px rgb(0, 0, 0, 8);
+    border: 1px solid beige;
+    width: 50vh;
+    height: 23vh;
+    margin-top: 5vh;
+    font-family: cursive;
+    backdrop-filter: brightness(0.5);
+    color: azure;
+    
+}
+.texte4{
+    box-shadow: 0px 10px 30px -5px rgb(0, 0, 0, 8);
+    border: 1px solid beige;
+    width: 50vh;
+    height: 23vh;
+    margin-top: 5vh;
+    font-family: cursive;
+    backdrop-filter: brightness(0.5);
+    color: azure;
+}
+.texte5{
+    box-shadow: 0px 10px 30px -5px rgb(0, 0, 0, 8);
+    border: 1px solid beige;
+    width: 50vh;
+    margin-top: 5vh;
+    font-family: cursive;
+    backdrop-filter: brightness(0.5);
+    color: azure;
+}
+.texte6 {
+    box-shadow: 0px 10px 30px -5px rgb(0, 0, 0, 8);
+    border: 1px solid beige;
+    width: 51vh;
+    height: 22vh;
+    margin-top: 5vh;
+    font-family: cursive;
+    backdrop-filter: brightness(0.5);
+    color: azure;
+}
+.texte7{
+    box-shadow: 0px 10px 30px -5px rgb(0, 0, 0, 8);
+    border: 1px solid beige;
+    width: 51vh;
+    height: 22vh;
+    margin-top: 5vh;
+    font-family: cursive;
+    backdrop-filter: brightness(0.5);
+    color: azure;
+}
+
+
+.bouffe1{
+    width: 60vh;
+}
+.bouffe2{
+    width: 50vh;
+}
+.bouffe3{
+    width: 50vh;
+    height: 34vh;
+}
+.bouffe4{
+    width: 44vh;
+    height: 34vh;
+}
+.container13{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    backdrop-filter: brightness(0.5);   
+}
+.container14{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    backdrop-filter: brightness(0.5);
+   padding: 10vh;   
+}
+.soucontainer1{
+    margin-left: 17vh;
+}
+.soucontainer2{
+    margin-left: 12vh;
+}
 
   
 @media(max-width:500px) {
@@ -175,7 +751,7 @@ body {
     }
 
     .carte img {
-        width: 30Svh;
+        width: 30vh;
 
     }
 
@@ -184,10 +760,92 @@ body {
         flex-direction: column;
 
     }
+    .container5{
+        margin-top: 20vh;
+    }
+    .container5555{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+    }
+    .container55552{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    
+     .imggnève{
+        position: absolute;
+        bottom: 10vh;
+    }
+    .overlay1{
+        position: absolute;
+        top: 37vh;
+    }
 
+    .imgLausanne{
+        position: absolute;
+        top: 40vh;
+    }
+    .overlay2{
+        position: absolute;
+        top: 69vh;
+    }
+    .imgberne{
+        position: absolute;
+        top: 85vh;
+
+    }
+    .overlay3{
+        position: absolute;
+        top: 126vh;
+    }
+    .imgZermatt{
+        position: absolute;
+        top: 126vh;
+    }
+    .overlay4{
+        position: absolute;
+        top: 167vh;
+    }
+    .imgMontreux{
+        position: absolute;
+        top: 141vh;
+    }
+    .overlay5{
+        position: absolute;
+        top: 175vh;
+    }
+    .imggrisons{
+        position: absolute;
+        top: 169vh;
+    }
+    .overlay6{
+        position: absolute;
+        top: 200vh;
+    }
+    .imggrindelwald{
+        position: absolute;
+        top: 188vh;
+    }
+    .overlay7{
+        position: absolute;
+        top: 229vh;
+    }
+    .imgappenzell{
+     position: absolute;
+        top: 224vh;
+    }
+    .overlay8{
+        position: absolute;
+        top: 258vh;
+    }
+
+    
+    
     main {
         margin: 0;
         padding: 0;
     }
 
-}
