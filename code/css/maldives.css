@@ -89,7 +89,7 @@ padding: 50px;
 }
 
 
- 
+
 @media screen and (max-width: 1000px) {
     .Container {
      display: block;
@@ -100,7 +100,9 @@ padding: 50px;
 
   @media screen and (max-width: 500px) {
     .descriptionH2 img {
-     width:300px;
+     width:500px;
+   
+
     }
   } 
 
@@ -110,11 +112,18 @@ padding: 50px;
     .ContainerImages{
      display: block;
      text-align: center;
-     
        width: 100%;  
      
     }}
 
+    @media screen and (max-width: 500px) {
+        .Container img {
+            width: 400px;
+        }}
+ 
+    @media screen and (max-width: 500px) {
+        .ContainerImages img {
+        width:300px ;}}
 
   
 @media (max-width: 1000px) {
@@ -123,3 +132,20 @@ padding: 50px;
         
     }
 }
+
+  
+@media (max-width: 500px) {
+    p {
+        font-size: x-large;
+        
+    }
+}
+
+@media (max-width: 500px) {
+    h2,h3 {
+        font-size: xx-large;
+        
+    }
+}
+
+
