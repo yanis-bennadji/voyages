@@ -715,29 +715,21 @@ a{
     .container1 h1 {
         text-align: center;
         width: 100vw;
-       
-
     }
-
     .imagemobile1 {
         width: 100%;
     }
-
     .container2 {
         border: none;
         display: flex;
         flex-direction: column;
-
     }
-
     .container3 {
         height: 130vh;
         border: 1px solid beige;
         box-shadow: 0px 0px 40px -5px rgb(0, 0, 0, 8);
         margin-left: 4vh;
         margin-right: 4vh;
-
-
     }
 
     .container4 {
@@ -747,18 +739,15 @@ a{
         margin-left: 4vh;
         margin-right: 4vh;
         margin-top: 10vh;
-
     }
 
     .carte img {
         width: 30vh;
-
     }
 
     .container34 {
         display: flex;
         flex-direction: column;
-
     }
     .container5{
         margin-top: 20vh;
@@ -766,8 +755,7 @@ a{
     .container5555{
         display: flex;
         flex-direction: column;
-        align-items: center; 
-        
+        align-items: center;  
     }
     .container55552{
         display: flex;
@@ -841,11 +829,11 @@ a{
         position: absolute;
         top: 258vh;
     }
-
-    
-    
     main {
         margin: 0;
         padding: 0;
     }
-
+    .backgroundbouffe{
+        margin-top: 277vh;
+    }
+}
