@@ -232,7 +232,7 @@
               de l'Alpstein est un paradis pour les randonneurs.
             </p>
       </div>
-    </a>
+    
   </div>
 
   </section>

@@ -723,7 +723,10 @@ a{
         border: none;
         display: flex;
         flex-direction: column;
+        background-color: #ab0f0f;
+        height: 24vh;
     }
+
     .container3 {
         height: 130vh;
         border: 1px solid beige;
@@ -769,7 +772,8 @@ a{
     }
     .overlay1{
         position: absolute;
-        top: 37vh;
+        top: 36vh;
+        opacity:1;
     }
 
     .imgLausanne{
@@ -778,7 +782,8 @@ a{
     }
     .overlay2{
         position: absolute;
-        top: 69vh;
+        top: 86vh;
+        opacity:1;
     }
     .imgberne{
         position: absolute;
@@ -788,6 +793,7 @@ a{
     .overlay3{
         position: absolute;
         top: 126vh;
+        opacity:1;
     }
     .imgZermatt{
         position: absolute;
@@ -796,6 +802,7 @@ a{
     .overlay4{
         position: absolute;
         top: 167vh;
+        opacity:1;
     }
     .imgMontreux{
         position: absolute;
@@ -803,37 +810,90 @@ a{
     }
     .overlay5{
         position: absolute;
-        top: 175vh;
+        top: 180vh;
+        opacity:1;
     }
     .imggrisons{
         position: absolute;
-        top: 169vh;
+        top: 174vh;
     }
     .overlay6{
         position: absolute;
-        top: 200vh;
+        top: 209vh;
+        opacity:1;
     }
     .imggrindelwald{
         position: absolute;
-        top: 188vh;
+        top: 200vh;
     }
     .overlay7{
         position: absolute;
-        top: 229vh;
+        top: 250vh;
+        opacity:1;
     }
     .imgappenzell{
      position: absolute;
-        top: 224vh;
+     top: 253vh;
     }
     .overlay8{
         position: absolute;
-        top: 258vh;
+        top: 300vh;
+        opacity:1;
     }
     main {
         margin: 0;
         padding: 0;
     }
+}
+
+@media(max-width:500px){
     .backgroundbouffe{
-        margin-top: 277vh;
+        margin-top: 330vh;
     }
+    .texte1{
+        font-size: 3vh;
+    }
+    .bouffe1 {
+        width: 45vh;
+    }
+    .texte2 {
+        width: 45vh;
+    }
+    .bouffe2 {
+        width: 45vh;
+    }
+    .texte3 {
+        width: 45vh;
+    }
+    .texte4{
+        width: 45vh;
+    }
+    .texte5{
+        width: 45vh;
+    }
+    .container13{
+        display: flex;
+        flex-direction: column;
+    }
+    .container14{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .bouffe3 {
+        width: 45vh;
+    }
+    .soucontainer1{
+        margin-left: 0vh;
+    }
+    .soucontainer2{
+        margin-left: 0vh;
+    }
+    .texte6{
+        width: 45vh;
+    }
+    .texte7{
+        width: 45vh;
+    }
+
 }
