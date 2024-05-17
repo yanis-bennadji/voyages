@@ -1,0 +1,266 @@
+body { 
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient(
+        to left,
+        red 35%,
+        white 35% 65%,
+        rgb(2, 59, 124) 65%
+      );
+}
+
+h1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gbox {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.istp {
+    width: 200px;
+}
+
+.cbox {
+    border: thick double;
+    font-size: 22px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.cbox h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sbox {
+    border: thick double;
+    font-size: 22px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.sbox h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.pbox {
+    border: thick double;
+    font-size: 22px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.pbox h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.eiffel {
+    width: 50%;
+}
+
+.boxinvisible {
+    text-align: center;
+    padding: 20px;
+}
+
+.adt {
+    width: 29%;
+}
+
+.versailles {
+    width: 65%;
+}
+
+.ski {
+    width: 30vw;
+} 
+
+.plage {
+    width: 30vw;
+}
+
+.ndg {
+    width:30vw;
+}
+
+.sdf {
+    width: 30vw;
+}
+
+.pelele {
+    display: flex;
+    animation-duration: 16s;
+    animation-name: nomsimple;
+    animation-iteration-count: infinite;
+}
+
+.caroussel {
+    margin: auto;
+    width: 30vw;
+    overflow: hidden;
+    border-radius: 12%;
+}
+
+@keyframes nomsimple {
+   0%{
+    transform: translateX(0);
+}
+   25% {
+    transform: translateX(-30vw);
+   } 
+   50% {
+    transform: translateX(-60vw);
+   }
+   75% {
+    transform: translateX(-90vw);
+   }
+   100% {
+    transform: translateX(0);
+   }
+}
+
+@media screen and (max-width: 430px) {
+   * {
+    margin: 0px;
+    padding: 0px;
+   }
+
+   body {
+       /*margin: 3px;*/
+       background: linear-gradient(
+            to left,
+            red 35%,
+            white 35% 65%,
+            rgb(2, 59, 124) 65%
+        );
+      margin: 0px;
+      padding: 0px;
+      width: 96vw;
+   }
+
+    h1 {
+       /*display: flex;
+       justify-content: space-evenly;
+       */
+       margin: auto 0;
+       width: 96vw;
+        font-size: 26px;
+    }
+
+    
+    h3 {
+        /*display: flex;
+        justify-content: center;
+        */
+        margin: auto 0;
+        width: 96vw;
+        font-size: 21px;
+}
+
+    .gbox {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 96vw;
+    }
+
+    .istp {
+        width: 20vw;
+    }
+
+    .cbox {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .hymnen {
+        width: 80vw;
+        margin-left: 8vw;
+    }
+
+    .sbox {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .pbox {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .adt {
+        margin-left: 5vw;
+    }
+
+    .ski {
+        width: 30vw;
+    } 
+    
+    .plage {
+        width: 30vw;
+    }
+    
+    .ndg {
+        width:30vw;
+    }
+    
+    .sdf {
+        width: 30vw;
+    }
+    
+    .pelele {
+        display: flex;
+        animation-duration: 16s;
+        animation-name: nomsimple;
+        animation-iteration-count: infinite;
+    }
+    
+    .caroussel {
+        margin-left: 35vw;
+        width: 30vw;
+        overflow: hidden;
+    }
+    
+    @keyframes nomsimple {
+       0%{
+        transform: translateX(0);
+    }
+       25% {
+        transform: translateX(-30vw);
+       } 
+       50% {
+        transform: translateX(-60vw);
+       }
+       75% {
+        transform: translateX(-90vw);
+       }
+       100% {
+        transform: translateX(0);
+       }
+    }
+}
