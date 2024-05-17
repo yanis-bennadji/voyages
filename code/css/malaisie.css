@@ -9,7 +9,7 @@ h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
 }
-h2,h3{
+h2,h4{
     color:white;
     font-family: 'Times New Roman';
 }
@@ -37,7 +37,7 @@ section{
     display: flex;
     justify-content: center;
 }
-h3{
+h4{
     text-align: center;
     font-size:x-large;
 }
@@ -49,7 +49,7 @@ h3{
 .localiser{
     text-align: center;
 }
-   h4{
+   h3{
     text-align:center;
     color:white;
     font-family: 'Times New Roman';
@@ -65,7 +65,7 @@ h3{
 
 
 
-@media screen and (min-width:200px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:480px) {
     body{
         background-color: rgb(110, 178, 255); 
         
@@ -83,7 +83,7 @@ h3{
     .images{
         width:100%;
     }
-    h2,h3{
+    h2,h4{
         font-size: 15px;
         font-family: cursive;
         color:white;
@@ -94,7 +94,7 @@ h3{
         color: #356afd;
         font-weight: bold;
     }
-    h3,.localiser,.minicarte{
+    h4,.localiser,.minicarte{
         margin-left: 1cm;
     }
     .minicarte{
@@ -103,11 +103,9 @@ h3{
     .minicarte{
         width:75%;
     }
-    h4{
+    h3{
         font-family: cursive;
         color: white;
         margin-left: 1cm;
     }
-    
-
 }

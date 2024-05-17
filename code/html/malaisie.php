@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="../css/malaisie.css?t=<?= time(); ?>"/>
 </head>
 <body>
-    <header>
- 
-    </header>
     <main>
         <h1>MALAISIE</h1>
             <figure>
@@ -29,24 +26,17 @@
                     <p>Le Mont Kinabalu est un site touristique incontournable situé à Kota Belud, en Malaisie. Cette montagne majestueuse est la plus haute de tout le pays, offrant des vues à couper le souffle depuis son sommet. L'ascension du Mont Kinabalu est une expérience unique en son genre, permettant aux visiteurs de profiter de paysages spectaculaires. Les amateurs de randonnée apprécieront également les cascades environnantes.</p>
                 </section>
             </figure>
-            <h4>Les cuisines malaisiennes</h4>
+                <h3>Les cuisines malaisiennes</h3>
             <figure class="cuisine">
-            <img class= "images"src="../../assets/image/maïla/plat1.jpg" alt="plat 1">
-            <img class= "images"src="../../assets/image/maïla/plat2.jpg" alt="plat 2">
-            <img class= "images"src="../../assets/image/maïla/plat3.jpg" alt="plat 3">
+                <img class= "images"src="../../assets/image/maïla/plat1.jpg" alt="plat 1">
+                <img class= "images"src="../../assets/image/maïla/plat2.jpg" alt="plat 2">
+                <img class= "images"src="../../assets/image/maïla/plat3.jpg" alt="plat 3">
             </figure>
-
-            <h3>Où se situe la Malaisie?</h3>
-            <p class="localiser">La Malaisie se trouve en Asie du Sud-Est.</p>
+                <h4>Où se situe la Malaisie ?</h4>
+                <p class="localiser">La Malaisie se trouve en Asie du Sud-Est.</p>
             <section class="carte">
-            <img class= "minicarte"src="../../assets/image/maïla/cartemalaisie.png" alt="">
+                <img class= "minicarte"src="../../assets/image/maïla/cartemalaisie.png" alt="">
             </section> 
-
-    </main>
-    <footer>
-        
-
-    </footer>
-    
+    </main>  
 </body>
 </html>
