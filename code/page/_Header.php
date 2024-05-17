@@ -24,7 +24,7 @@
                             </li>
                             <li><a href="">Afrique</a>
                                 <ul class="sous-menu-deroulant">
-                                    <li><a href="">Algérie</a></li>
+                                    <li><a href="../../../voyages/code/html/algérie.php">Algérie</a></li>
                                     <li><a href="../../../voyages/code/html/ilemaurice.php">Ile Maurice</a></li>
                                 </ul>
                             </li>

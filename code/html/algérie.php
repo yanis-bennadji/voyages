@@ -4,8 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algérie</title>
     <link rel="stylesheet" href="../css/algérie.css"?t=<?= time(); ?> />
+    <link rel="stylesheet" href="../css/voyages.css">
 </head>
 <body>
+
+  <header>
+            <?php
+            include '../../../voyages/code/page/_Header.php';
+            ?>
+  </header>
+
   <main>
     <h1 class="algt">l'Algerie الجزائر</h1>
     <section class="simg">
@@ -99,7 +107,7 @@
   <p class="ptimgad">Le parc abrite également la vallée d'Iherir, classée site Ramsar depuis le 2 février 2017.</p>
   </div>
  <section>
-  <div class="">
+  <div class="image-fin">
     <img class="imgtas" src="../../assets/image/hamza/tasa.jpg" alt="">
     <img class="imgtas" src="../../assets/image/hamza/tasb.jpg" alt="">
     <img class="imgtas" src="../../assets/image/hamza/tasc.jpg" alt="">
@@ -110,6 +118,12 @@
   </div>
  </section>
 </section>
+
+<footer>
+            <?php
+            include '../../../voyages/code/page/_Footer.php';
+            ?>
+</footer>
 
 
 </main>

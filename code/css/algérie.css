@@ -221,3 +221,7 @@ margin-top: 100px;
 
    
     
+.image-fin {
+    display: flex;
+    justify-content: space-evenly;
+}

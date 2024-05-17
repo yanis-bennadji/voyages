@@ -73,7 +73,7 @@
 
             </a>
 
-            <a href="">
+            <a href="./code/html/algérie.php">
             <img class="drapeau-index" src="./assets/image/yanis/drapeau-algerie.png" alt="">
 
             </a>
