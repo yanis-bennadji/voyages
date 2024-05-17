@@ -68,7 +68,7 @@
 
             </a>
 
-            <a href="">
+            <a href="./code/html/ilemaurice.php">
             <img class="drapeau-index" src="./assets/image/yanis/drapeau-maurice.png" alt="">
 
             </a>
