@@ -38,7 +38,7 @@
         </section>
         
         <section class="section2">     <!-- section contenant les drapeaux --> 
-            <a href="">
+            <a href="./code/html/suisse.php">
             <img class="drapeau-index" src="./assets/image/yanis/drapeau-suisse.png" alt="">
 
             </a>

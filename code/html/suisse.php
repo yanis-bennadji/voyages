@@ -7,11 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/voyages.css">
     <title>La suisse</title>
 </head>
 <body>
 
 <header>
+            <?php
+            include '../../../voyages/code/page/_Header.php';
+            ?>
 
 </header>
 
@@ -324,6 +328,10 @@
     </main>
     
 <footer>
+
+            <?php
+            include '../../../voyages/code/page/_Footer.php';
+            ?>
 
 </footer>
     

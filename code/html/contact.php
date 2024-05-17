@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contact.css">
-    <title>contact</title>
+    <link rel="stylesheet" href="../css/voyages.css">
+    <title>Contact</title>
 </head>
 <body>
     <header>
+            <?php
+            include '../../../voyages/code/page/_Header.php';
+            ?>
 
     </header>
     <main>
@@ -30,6 +34,9 @@
     </section>
     </main>
     <footer>
+            <?php
+            include '../../../voyages/code/page/_Footer.php';
+            ?>
 
     </footer>
     

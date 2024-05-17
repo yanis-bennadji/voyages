@@ -12,7 +12,7 @@
                                     <li><a href="">France</a></li>
                                     <li><a href="../../../voyages/code/page/italie.php">Italie</a></li>
                                     <li><a href="">Islande</a></li>
-                                    <li><a href="">Suisse</a></li>
+                                    <li><a href="../../../voyages/code/html/suisse.php">Suisse</a></li>
                                 </ul>
                             </li>
                             <li><a href="">Asie</a>
@@ -51,7 +51,7 @@
                             <li><a href="">Hamza</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="../../../voyages/code/html/contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>
