@@ -78,7 +78,8 @@
         <section class="bolrenverse">
         <img src="../../assets/image/sabrina/bolrenverse.jpg">
         <p>Un bol renversé est un plat mauricien et réunionnais d'origine chinoise.
-             Il s'agit d'un monticule de riz recouvert d'un œuf que l'on place dans l'assiette où il est servi en renversant le bol hémisphérique qui originellement le contient.
+             Il s'agit d'un monticule de riz recouvert d'un œuf que l'on place dans l'assiette 
+             où il est servi en renversant le bol hémisphérique qui originellement le contient.
         </p>
         </section>
         </section>
