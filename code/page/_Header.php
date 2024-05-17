@@ -18,7 +18,7 @@
                             <li><a href="">Asie</a>
                                 <ul class="sous-menu-deroulant">
                                     <li><a href="">Japon</a></li>
-                                    <li><a href="">Malaisie</a></li>
+                                    <li><a href="../../../voyages/code/html/malaisie.php">Malaisie</a></li>
                                     <li><a href="../../../voyages/code/html/maldives.php">Maldives</a></li>
                                 </ul>
                             </li>

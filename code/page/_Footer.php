@@ -1,6 +1,6 @@
 
 <footer class="footertest">
-    <img class="logoFooter" src="./assets/image/yanis/logo-avion.jpg" alt="">
+    <img class="logoFooter" src="../../../voyages/assets/image/yanis/logo-avion.jpg" alt="">
     <section class="footertest2">
         <p>Avec la participation de :</p>
         <ul>
@@ -52,11 +52,13 @@
 
         
 
+        
+
        
     </section>
 
     <div class="end-footer">
-        <p>Projet dans le cadre de formation La Plateforme.</p>
+        <p class="texte-footer">Projet dans le cadre de formation La Plateforme.</p>
     </div>
 
 </footer>

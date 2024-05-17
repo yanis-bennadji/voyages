@@ -63,7 +63,7 @@
 
             </a>
 
-            <a href="">
+            <a href="./code/html/malaisie.php">
             <img class="drapeau-index" src="./assets/image/yanis/drapeau-malaisie.png" alt="">
 
             </a>

@@ -116,6 +116,14 @@ nav {
 
 /* CSS for the Footer */
 
+
+.text-footer {
+    color: white;
+    font-family: Arial, sans-serif;
+
+
+}
+
 .gitlink {
     color: white;
     transition: transform 0.3s ease;

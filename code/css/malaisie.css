@@ -13,7 +13,7 @@ h2,h4{
     color:white;
     font-family: 'Times New Roman';
 }
-p{
+.texte-malaisie{
     color:#356afd;
     font-family: cursive;
 }
@@ -23,14 +23,13 @@ p{
  }
     
 
-img{
-    height: 200px;
-} 
 section{
     margin-left:1cm;
 }
 .images{
     border-radius: 20px;
+    height: 200px;
+
 }
 
 .carte{
@@ -48,6 +47,10 @@ h4{
 }
 .localiser{
     text-align: center;
+    color:#356afd;
+    font-family: cursive;
+}
+
 }
    h3{
     text-align:center;
@@ -61,7 +64,7 @@ h4{
     justify-content: space-between;
     margin-bottom: 2cm;
    }
-}
+
 
 
 
