@@ -1,6 +1,3 @@
-
-<!-- index -->
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -104,5 +101,4 @@
     
 </body>
 </html>
-
 
