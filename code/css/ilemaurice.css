@@ -1,15 +1,3 @@
-@media screen and(min-width:320px) {
-    .mauricehaut {
-         width: 100%;
-        }
-}
-
-
-/*body{
-    background-color: green;
-}*/
-
-
 .mauricehaut{
     background-color: #046276
 }
@@ -114,3 +102,7 @@
     padding-top: 5%;
     border: 5px solid #046276;
 }
+
+@media screen and(max-width:1000px) {
+    .platmaurice{display: block;}
+        }
