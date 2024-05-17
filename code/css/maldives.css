@@ -1,0 +1,151 @@
+ body{
+    background-color: #eeeebe;
+} 
+
+
+.descriptionMaldives{
+   text-align: center;
+}
+
+ .descriptionMaldives {
+     
+     background-image: url(../../assets/image/dounayha/maldivesPlage.jpg); 
+    background-size: cover; 
+ background-position: center; 
+ width: 100%;
+ height: 400px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: rgb(253, 253, 253);
+ font-size: x-large;
+ } 
+
+.descriptionH2{
+    text-align: center;
+    
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.descriptionH2 img{
+    width: 600px;
+    padding-bottom: 5%;
+    
+} 
+
+h1,h2{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+;text-align: center;}
+
+h3{
+    font-size:larger;
+}
+
+p{
+    font-family: cursives;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+      
+    
+   
+}
+
+.Container img{max-width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Container p{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center; 
+} 
+
+
+ 
+
+.ContainerImages img{
+    width: 200px;
+}
+
+.ContainerImages{display: flex;
+flex-direction: row;
+padding: 50px;
+} 
+
+.ContainerImages p{
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .Container {
+     display: block;
+     width: 300px;
+    }
+  } 
+
+
+  @media screen and (max-width: 500px) {
+    .descriptionH2 img {
+     width:500px;
+   
+
+    }
+  } 
+
+  
+ 
+  @media screen and (max-width: 500px) {
+    .ContainerImages{
+     display: block;
+     text-align: center;
+       width: 100%;  
+     
+    }}
+
+    @media screen and (max-width: 500px) {
+        .Container img {
+            width: 400px;
+        }}
+ 
+    @media screen and (max-width: 500px) {
+        .ContainerImages img {
+        width:300px ;}}
+
+  
+@media (max-width: 1000px) {
+    img {
+        width: 100%;
+        
+    }
+}
+
+  
+@media (max-width: 500px) {
+    p {
+        font-size: x-large;
+        
+    }
+}
+
+@media (max-width: 500px) {
+    h2,h3 {
+        font-size: xx-large;
+        
+    }
+}
+
+
