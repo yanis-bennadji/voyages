@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <!-- index -->
 
 <!DOCTYPE html>
@@ -103,3 +104,6 @@
     
 </body>
 </html>
+=======
+<!-- index -->
+>>>>>>> Stashed changes
