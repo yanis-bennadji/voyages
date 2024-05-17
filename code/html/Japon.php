@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Japon</title>
     <link rel="stylesheet" href="../css/palestine.css">
+    <link rel="stylesheet" href="../css/voyages.css">
 </head>
 <body> 
+  
+  <header>
+            <?php
+            include '../../../voyages/code/page/_Header.php';
+            ?>
+  </header>
+
     <menu>
         <h1>Présentation du japon</h1>
         <p>Le Japon est un pays situé dans l'Est de l'Asie, composé d'une grande île principale et d'une multitude d'autres îles de différentes tailles </p>
@@ -37,6 +45,12 @@
         
 
      </menu>
+
+     <footer>
+            <?php
+            include '../../../voyages/code/page/_Footer.php';
+            ?>
+     </footer>
        
 
 </body>
