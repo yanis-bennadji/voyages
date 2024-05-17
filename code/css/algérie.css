@@ -98,13 +98,29 @@ padding: 20px;
 }
 .salger{
     display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.timalg {
+margin-top: 100px;
+
+}
+.dalger{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 0%;
+    box-shadow:  6px 6px 25px rgba(0, 0, 0, 0.5);
 }
 .palger{
     font-size: 20px;
+    line-height: 30px;
 }
 .imgalger{
-    width: 900px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
 }
 .menu{
     text-decoration: none;
@@ -113,10 +129,6 @@ padding: 20px;
 .menu:hover{
     font-size: 110%;
 } 
-.stimgad{
-    display: flex;
-    justify-content: space-between;
-}
 .divimgtim{
     display: flex;
     animation-duration: 30s;
@@ -172,9 +184,14 @@ padding: 20px;
 .ptimgad{
     line-height: 33px;
     font-weight: 700;
+    text-align: center;
 }
 .parc{
     text-align: center;
+    margin-top: 100px;
+}
+#geo{
+    margin-top: 100px;
 }
 @media screen and (max-width:412px) {
     body{
