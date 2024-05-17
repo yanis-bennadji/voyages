@@ -44,6 +44,9 @@ h3{
     height:300px;
     border-radius: 40%;
 }
+.localiser{
+    text-align: center;
+}
    
 }
 
@@ -66,7 +69,7 @@ h3{
     .images{
         width:100%;
     }
-    h2{
+    h2,h3{
         font-size: 15px;
         font-family: cursive;
         color:white;
@@ -77,5 +80,14 @@ h3{
         color: #356afd;
         font-weight: bold;
     }
+    h3,.localiser,.minicarte{
+        margin-left: 1cm;
+    }
+    .minicarte{
+        margin-right: 1cm;
+    }
+    .minicarte{
+        width:75%;
+    
 
 }
