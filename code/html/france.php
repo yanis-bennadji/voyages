@@ -4,9 +4,17 @@
     <link rel="stylesheet" type="text/css" href="../css/france.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/voyages.css">
     <title>France</title>
 </head>
 <body>
+
+<header>
+            <?php
+            include '../../../voyages/code/page/_Header.php';
+            ?>
+  </header>
+
     <h1>
         Présentation de la France
     </h1>
@@ -86,6 +94,12 @@
             <img class="sdf" src="../../assets/image/malik/stade-de-france.jpg" alt="Stade de france">
         </div>
     </div>  
+
+    <footer>
+            <?php
+            include '../../../voyages/code/page/_Footer.php';
+            ?>
+    </footer>
 </body>
 </html>
 <!--  -->

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 <!-- index -->
 
 <!DOCTYPE html>
@@ -49,7 +49,7 @@
 
             </a>
 
-            <a href="">
+            <a href="./code/html/france.php">
             <img class="drapeau-index" src="./assets/image/yanis/drapeau-france.png" alt="">
 
             </a>
@@ -85,7 +85,7 @@
             </a>
 
             <a href="">
-            <img class="drapeau-index" src="./assets/image/yanis/drapeau-guadeloupe.png" alt=""> 
+            <img class="drapeau-index" src="./assets/image/yanis/drapeau-guadeloupe.png" alt="">  
 
             </a>
         </section>
