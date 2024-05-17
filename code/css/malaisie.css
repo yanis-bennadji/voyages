@@ -1,0 +1,111 @@
+@media screen and (min-width:480px){
+body{ 
+    
+    background-color: rgb(110, 178, 255); 
+}
+h1{
+    text-align: center;
+    color: #356afd;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+h2,h4{
+    color:white;
+    font-family: 'Times New Roman';
+}
+p{
+    color:#356afd;
+    font-family: cursive;
+}
+ figure{
+    display: flex;
+    flex-direction:row;
+ }
+    
+
+img{
+    height: 200px;
+} 
+section{
+    margin-left:1cm;
+}
+.images{
+    border-radius: 20px;
+}
+
+.carte{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+    font-size:x-large;
+}
+.minicarte{
+    
+    height:300px;
+    border-radius: 40%;
+}
+.localiser{
+    text-align: center;
+}
+   h3{
+    text-align:center;
+    color:white;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+    
+   }
+   .cuisine{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2cm;
+   }
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    body{
+        background-color: rgb(110, 178, 255); 
+        
+    }
+
+    h1{
+        color: #356afd;
+        font-size:25px;
+        margin-left: 1cm;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: underline;
+    }
+    .images{
+        width:100%;
+    }
+    h2,h4{
+        font-size: 15px;
+        font-family: cursive;
+        color:white;
+    }
+    p{
+        font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;;
+        font-size: 13px;
+        color: #356afd;
+        font-weight: bold;
+    }
+    h4,.localiser,.minicarte{
+        margin-left: 1cm;
+    }
+    .minicarte{
+        margin-right: 1cm;
+    }
+    .minicarte{
+        width:75%;
+    }
+    h3{
+        font-family: cursive;
+        color: white;
+        margin-left: 1cm;
+    }
+}
