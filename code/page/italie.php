@@ -59,7 +59,7 @@
             <h2>Tourisme</h2>
             <div class="flex-container">
                 <div class="card">
-                    <img src="../../assets/image/yanis/cinque-terre.jpg" alt="Cinque Terre">
+                    <img src="../../assets/image/yanis/gelato.jpg" alt="Cinque Terre">
                     <p><strong>Cinque Terre:</strong> Des villages colorés le long de la côte. Les Cinque Terre se composent de cinq villages pittoresques perchés sur des falaises surplombant la mer. Les sentiers de randonnée offrent des vues spectaculaires et chaque village a son propre charme unique. C'est un paradis pour les amoureux de la nature et de la photographie.</p>
                 </div>
                 <div class="card">
