@@ -76,7 +76,7 @@
         </div>
     </div>
     <h3>
-        Quelques beau paysage pour vos yeux
+        Quelques beau paysages pour vos yeux
     </h3>
     <div class="caroussel">
         <div class="pelele">
