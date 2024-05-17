@@ -78,7 +78,7 @@
 
             </a>
 
-            <a href="">
+            <a href="./code/html/maldives.php">
             <img class="drapeau-index" src="./assets/image/yanis/drapeau-maldives.png" alt="">
 
             </a>

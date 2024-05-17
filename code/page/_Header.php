@@ -19,7 +19,7 @@
                                 <ul class="sous-menu-deroulant">
                                     <li><a href="">Japon</a></li>
                                     <li><a href="">Malaisie</a></li>
-                                    <li><a href="">Maldives</a></li>
+                                    <li><a href="../../../voyages/code/html/maldives.php">Maldives</a></li>
                                 </ul>
                             </li>
                             <li><a href="">Afrique</a>

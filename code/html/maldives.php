@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maldives</title>
     <link rel="stylesheet" href="../css/maldives.css">
+    <link rel="stylesheet" href="../css/voyages.css">
 </head>
 <body>
+
+<header>
+            <?php
+            include '../../../voyages/code/page/_Header.php';
+            ?>
+
+</header>
+
 <main>      
 
         <div class="descriptionMaldives">
@@ -99,5 +108,13 @@
           
 
     </main>
+
+    <footer>
+
+            <?php
+            include '../../../voyages/code/page/_Footer.php';
+            ?>
+
+    </footer>
 </body>
 </html>
