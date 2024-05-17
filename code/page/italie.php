@@ -1,41 +1,104 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido </title>
+    <title>Découverte de l'Italie</title>
     <link rel="stylesheet" href="../../code/css/voyages.css" <?= time(); ?>>
-    <link rel="stylesheet" href="../css/italie.css" <?= time(); ?>>
+    <link rel="stylesheet" href="../css/italie.css">
 </head>
 <body>
-
     <header>
             <?php
             include '../../code/page/_Header.php';
             ?>
-
     </header>
     
-    <!-- <img class="colisee" src="../../assets/image/yanis/fond-colisée.png" alt="fond colisée"> -->
-    
     <main>
-        
-
-
-        <section class="ptest2">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cumque neque! Harum corrupti, earum atque cupiditate officia magnam quia cum ea fugit, tenetur animi, enim error consectetur excepturi laboriosam accusamus cumque neque magni facere! Repellendus dignissimos numquam quod a est quisquam sint non saepe atque labore autem similique, et expedita sit aliquid iste magni? Possimus, porro eius molestias laudantium, facilis odit provident debitis suscipit itaque vitae blanditiis, quisquam natus neque laboriosam. Ab maxime odio voluptatem minima qui laboriosam itaque. Cumque atque debitis asperiores modi, fugit, optio natus eveniet quae nam delectus voluptate tempore numquam. Recusandae minus quisquam nulla officiis a facilis necessitatibus eum officia iure corrupti iste, sunt facere voluptatum molestiae magni odit suscipit corporis id atque ipsum itaque numquam. Ullam laborum fugit, ratione sint eveniet voluptatem expedita at corrupti, incidunt, commodi fuga facere amet qui quos in cumque accusamus! Corrupti quae tenetur, minus omnis ab reprehenderit laboriosam aperiam tempora odit harum distinctio ut, perferendis reiciendis, necessitatibus voluptatum deleniti dolor nostrum sint alias exercitationem neque architecto ratione recusandae error. Est, officiis possimus! Distinctio dicta voluptate veniam optio et fuga consequuntur praesentium, quisquam quas. Quasi delectus laborum tempora, accusamus nisi excepturi ab quidem minima sapiente tenetur tempore cupiditate possimus numquam, repellat totam ea deserunt. Atque, earum accusantium maxime voluptatem reprehenderit porro doloribus ducimus voluptate natus blanditiis inventore velit, ipsa autem enim culpa, doloremque tempore eius. Nulla ut eum ullam quo earum sit ipsum. Sint iusto fugiat ab excepturi eaque illo possimus debitis esse cupiditate autem, nisi similique deleniti inventore molestiae dignissimos aperiam totam vel non accusantium. Ex nam, magnam dignissimos facere officiis at, illum molestias tempore nobis consequatur molestiae deserunt culpa sapiente doloribus, error eum architecto cumque! Laudantium illo id perferendis optio beatae nihil odio blanditiis, fuga, repudiandae adipisci veniam ipsam sapiente amet quia voluptate ullam molestiae, minus eligendi maiores cupiditate quod quaerat. Expedita minus incidunt et rem blanditiis asperiores eaque facere quae distinctio dolor. Libero nesciunt officia officiis reprehenderit labore commodi cum nobis assumenda, expedita, hic id, mollitia fuga veniam enim quibusdam illum ad. Voluptatem iste, porro, in ad unde vel quo officiis sit amet itaque aspernatur illum a dolore nesciunt nostrum doloribus. Quaerat adipisci aperiam quidem corporis nihil velit eaque saepe, magni voluptates dolor quae. Vel, quam! Provident, placeat sint. Eligendi tempora fugiat commodi alias illum consequatur neque quod, ullam expedita earum vitae. Iusto consectetur veritatis cupiditate quo laudantium animi eaque, vero, rem suscipit libero ullam. Natus, magni maxime nihil illum atque tempora. Voluptates odit similique odio expedita neque nostrum sit corrupti dolor aliquid. Recusandae odit neque veniam sint. Doloribus corrupti enim quos obcaecati repudiandae molestias necessitatibus sint nihil. Perspiciatis consequuntur reiciendis repellat alias qui deleniti in est. Sunt non dolore saepe beatae ut tempore nam placeat ullam quisquam nisi accusamus optio rem aperiam similique, harum ad quidem quasi soluta repellendus excepturi maxime! Obcaecati, in quidem quos ullam assumenda at exercitationem, qui laborum et impedit non, consequatur quia quis amet atque ducimus. Rem nihil adipisci sapiente, ea error ad nostrum omnis molestiae incidunt voluptas vitae dolore iusto deserunt voluptates.</p>
-            <p class="ptest">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsam debitis nam itaque cumque quam iure ad veritatis aliquam corporis mollitia iusto reiciendis modi asperiores nostrum atque aspernatur alias maiores, explicabo natus eaque veniam voluptas. Ea animi tempora a repudiandae similique ut voluptates tempore! Nihil, deleniti dolores ipsum exercitationem libero repellat! Possimus ipsum exercitationem, pariatur nisi consequatur accusantium aspernatur accusamus reiciendis nulla, quidem, corrupti provident commodi aut consequuntur earum officiis sed quis corporis. Adipisci provident repudiandae quos quasi magni debitis? Molestias nostrum libero, sed nihil aut excepturi ut temporibus! Est, quod qui id esse vel dolore perspiciatis totam facere magni neque fugit nam velit praesentium, impedit reprehenderit illum exercitationem doloribus modi ab pariatur ipsam recusandae! Vero praesentium quod voluptates exercitationem reprehenderit at quisquam dicta rem est asperiores eligendi corporis voluptate amet totam molestiae dolore eius, aspernatur, iure beatae recusandae a voluptatum odit, debitis quae. Atque, explicabo qui. Nulla sequi molestiae placeat minima rerum incidunt voluptatem fugit quae nesciunt, beatae libero deserunt adipisci illo ut esse! Molestias deleniti temporibus quo rerum, minima iusto natus nisi praesentium maxime fuga. Optio officiis possimus sint, incidunt expedita quasi deleniti, nisi voluptates recusandae quidem eveniet deserunt provident. Vel vero nam omnis ducimus sit quos. Rerum quae repellendus culpa voluptas pariatur soluta ullam tempora aliquid cumque, ipsum quaerat quo debitis ab quisquam veritatis nesciunt qui exercitationem excepturi eligendi optio dignissimos sequi. Quibusdam atque incidunt hic, aspernatur eligendi consequatur doloribus ipsam. Iusto quasi, at expedita ut natus provident. Quia magni et ratione. Dicta tenetur eos cumque veritatis, odio excepturi fuga ex dolore? Nisi cum vitae accusamus eaque ipsum labore quod, animi voluptatem neque aliquid quas veritatis tenetur dolorum dolore exercitationem eos sequi cupiditate quae rerum repellendus quis quidem cumque eligendi porro? Illo accusantium laudantium debitis qui laborum omnis veniam maiores magni nisi amet dolorem quibusdam doloremque tenetur temporibus pariatur a esse, veritatis quisquam obcaecati earum. Iste, eligendi molestiae veniam distinctio fuga facere laudantium vitae doloribus modi, itaque sunt tenetur illo ad cumque voluptates enim culpa ipsa aliquid in eveniet omnis. A ipsa quia facilis itaque dolorem sapiente, laborum rerum. Perspiciatis voluptate provident, repudiandae soluta quaerat laudantium corporis pariatur porro earum quod libero maxime odio excepturi suscipit eligendi exercitationem harum. Enim sit itaque omnis nulla cupiditate? In corporis quod iure voluptas dolor, tempore incidunt ipsa aperiam ea tenetur numquam rem? Molestiae nesciunt alias illo veniam deleniti commodi optio quod quis, iusto necessitatibus odio quasi perferendis ducimus praesentium saepe impedit reiciendis quisquam adipisci voluptas laboriosam inventore molestias modi obcaecati! Nam consectetur, est accusamus, minima iure incidunt nihil, provident enim unde inventore nobis fugiat ad eveniet! Ut, iure. Rerum expedita enim veritatis dolorum magnam maxime repellat maiores, itaque hic sed, sunt voluptates, ipsam id repudiandae ratione. Accusantium quidem nesciunt inventore nisi dolor totam laboriosam ad eum non odit architecto pariatur numquam iure provident sapiente, maiores delectus, velit quibusdam cumque vel quam veniam culpa modi rem? Qui itaque optio sit officiis doloremque. Aliquid impedit facere, praesentium accusantium veniam ea in magni asperiores repellendus voluptatibus aliquam temporibus quam, dolores suscipit. Est vel quos ea alias aperiam et nostrum accusantium facilis doloremque facere? Ipsa unde natus ipsum pariatur omnis enim velit itaque fugiat quaerat esse atque repudiandae, accusantium nihil temporibus. Cumque sapiente quisquam quo maxime neque ipsa enim voluptatum, assumenda repellendus ea possimus reprehenderit tempore? Eaque, necessitatibus? Molestiae numquam, quidem natus ratione doloribus tempore non ducimus reprehenderit repellendus doloremque sunt libero amet impedit possimus voluptate et delectus iste est saepe cupiditate deleniti! Doloremque reprehenderit similique ab soluta ullam dolorem consequuntur odit id illo, fuga, vel, et optio atque aut praesentium numquam! Architecto nihil rerum id iusto eos labore minima sapiente distinctio saepe quia, cum, in iste perspiciatis, eum doloribus sit adipisci. Reiciendis minima magni vero natus provident error aperiam totam perferendis eaque autem. Enim in animi necessitatibus, ad reprehenderit ipsa at aliquid quaerat facere nisi et saepe nostrum adipisci aliquam qui nobis! Error hic eum repellendus quam natus nostrum, illo qui fugiat porro. Quasi animi alias corrupti repudiandae nesciunt fugiat veniam odio, dolore reprehenderit natus ratione nemo sapiente iusto eligendi exercitationem perferendis fugit? Sunt fugiat labore impedit numquam. Accusantium, id incidunt. Eius impedit perferendis quisquam, nesciunt repellat voluptatem fugit cupiditate quis ut! Repellendus nulla nemo vitae enim voluptatibus, fugiat, eius saepe dolorum pariatur cum sequi corrupti debitis consequatur. Quia illo consequatur magnam quisquam nostrum, accusantium rem dolorem corporis molestiae perferendis voluptate cum eum, rerum quam sunt ut? Expedita, deleniti distinctio. Voluptatum dolor fugiat consequuntur, blanditiis doloribus officiis a nesciunt ipsa ratione sunt quae, hic enim! Unde at nam mollitia molestias optio, illum saepe. Aliquid iure incidunt rerum et provident, voluptate veritatis, eveniet, eaque praesentium illo totam delectus in sequi quo quam eligendi doloribus voluptates unde harum. Illum soluta eaque nulla expedita, maiores in voluptatibus veritatis vel odio temporibus? Sequi officiis atque animi odio optio laborum quas nam necessitatibus amet fugit et cum ipsa similique, inventore ex nihil porro dolores repellat debitis harum blanditiis eum dicta in! Consequuntur, quasi fuga deserunt dolorum ut explicabo reiciendis iste corporis ipsum et odio! Modi, enim perferendis, optio error iste, dolor veniam dignissimos neque quis delectus fuga. A aliquid quae pariatur qui animi harum ad, dolorem vel, atque praesentium debitis placeat excepturi voluptatum optio cupiditate eligendi laudantium deleniti accusantium? Id magni ad reprehenderit distinctio temporibus asperiores, at animi quibusdam magnam vitae cumque possimus tempore molestias dolorum doloribus excepturi voluptatum quidem quisquam sed? Aspernatur, sunt? Accusantium dignissimos ab error amet laboriosam culpa vitae ullam maiores natus molestiae ipsam expedita ratione iusto deserunt sunt aspernatur odio quas, necessitatibus tempora possimus laborum fugit corrupti, dolores corporis. Non laborum officia recusandae sunt veniam repudiandae ad animi ut dignissimos perferendis, quos provident, itaque doloribus. A corrupti porro molestias rerum voluptatibus error tempore, necessitatibus quae aut quam atque reiciendis eos, beatae quas. Accusamus, laboriosam pariatur quia accusantium enim ex? Id, cupiditate beatae sit ea distinctio harum? Distinctio asperiores assumenda non. Debitis est voluptas laborum ea odio obcaecati aspernatur perferendis sequi a rerum esse odit iste veritatis in, sit quisquam natus. Laboriosam quibusdam recusandae aspernatur, incidunt natus consequuntur sunt numquam eum excepturi, at facere et?</p>
+    <div class="title-flag">
+        <h1>Benvenuto in Italia!</h1>
+        <img class="flagITA" src="../../assets/image/yanis/drapeau-italie.png" alt="">
+    </div>
+        <section id="cities" class="info-section">
+            <h2>Villes</h2>
+            <div class="flex-container">
+                <div class="card">
+                    <img src="../../assets/image/yanis/rome.avif" alt="Rome">
+                    <p><strong>Rome:</strong> La capitale historique avec le Colisée et le Vatican. Rome est une ville où le passé et le présent se rejoignent. Des ruines antiques comme le Forum romain aux magnifiques œuvres d'art de la Renaissance et du Baroque, Rome est un musée à ciel ouvert. Ne manquez pas la chapelle Sixtine au Vatican, un chef-d'œuvre de Michel-Ange.</p>
+                </div>
+                <div class="card">
+                    <img src="../../assets/image/yanis/venice.webp" alt="Venise">
+                    <p><strong>Venise:</strong> La ville romantique célèbre pour ses canaux. Venise est connue pour ses gondoles, ses canaux sinueux et ses palais somptueux. Le Grand Canal offre une vue imprenable sur les édifices historiques. La place Saint-Marc et la basilique Saint-Marc sont des incontournables, tout comme le palais des Doges.</p>
+                </div>
+                <div class="card">
+                    <img src="../../assets/image/yanis/florence.jpg" alt="Florence">
+                    <p><strong>Florence:</strong> Le berceau de la Renaissance avec ses musées d'art. Florence est une ville d'art et de culture. Le musée des Offices abrite des œuvres de Botticelli et de Léonard de Vinci. La cathédrale Santa Maria del Fiore avec sa coupole majestueuse et le Ponte Vecchio, un pont médiéval toujours animé, sont des points forts de la visite.</p>
+                </div>
+            </div>
         </section>
-
-
+        
+        <section id="food" class="info-section">
+            <h2>Nourriture</h2>
+            <div class="flex-container">
+                <div class="card">
+                    <img src="../../assets/image/yanis/pizza.jpg" alt="Pizza">
+                    <p><strong>Pizza:</strong> Originaire de Naples, un incontournable italien. La pizza napolitaine est réputée pour sa pâte moelleuse et ses ingrédients frais. Les pizzas traditionnelles, comme la Margherita avec de la mozzarella de bufflonne, des tomates San Marzano et du basilic frais, sont une expérience culinaire à ne pas manquer.</p>
+                </div>
+                <div class="card">
+                    <img src="../../assets/image/yanis/pasta.webp" alt="Pâtes">
+                    <p><strong>Pâtes:</strong> Variétés infinies de recettes délicieuses. Les pâtes italiennes vont des spaghetti aux lasagnes, en passant par les raviolis et les penne. Chaque région a ses spécialités, comme les pâtes à la carbonara de Rome ou les pâtes au pesto de Gênes. Les ingrédients frais et les sauces savoureuses font toute la différence.</p>
+                </div>
+                <div class="card">
+                    <img src="../../assets/image/yanis/gelato.jpg" alt="Gelato">
+                    <p><strong>Gelato:</strong> La glace italienne, douce et savoureuse. Le gelato italien est connu pour sa texture crémeuse et ses saveurs intenses. Contrairement à la crème glacée, le gelato contient moins de matières grasses et est battu plus lentement, ce qui lui donne une densité et une richesse uniques. Essayez des saveurs comme la noisette, le pistache ou le stracciatella.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tourism" class="info-section">
+            <h2>Tourisme</h2>
+            <div class="flex-container">
+                <div class="card">
+                    <img src="../../assets/image/yanis/gelato.jpg" alt="Cinque Terre">
+                    <p><strong>Cinque Terre:</strong> Des villages colorés le long de la côte. Les Cinque Terre se composent de cinq villages pittoresques perchés sur des falaises surplombant la mer. Les sentiers de randonnée offrent des vues spectaculaires et chaque village a son propre charme unique. C'est un paradis pour les amoureux de la nature et de la photographie.</p>
+                </div>
+                <div class="card">
+                    <img src="../../assets/image/yanis/amalfi_coast.jpg" alt="Côte Amalfitaine">
+                    <p><strong>Côte Amalfitaine:</strong> Une magnifique région côtière à explorer. La côte Amalfitaine est célèbre pour ses paysages à couper le souffle, ses villages colorés et ses routes sinueuses. Positano, Amalfi et Ravello sont des destinations populaires, offrant des plages idylliques, des jardins luxuriants et une cuisine locale exquise.</p>
+                </div>
+                <div class="card">
+                    <img src="../../assets/image/yanis/dolomites.jpg" alt="Dolomites">
+                    <p><strong>Dolomites:</strong> Des montagnes impressionnantes pour les amateurs de nature. Les Dolomites sont une chaîne de montagnes spectaculaire dans le nord de l'Italie, idéale pour les randonnées, l'escalade et le ski. Le paysage est caractérisé par des pics rocheux, des vallées verdoyantes et des lacs alpins. En hiver, les stations de ski attirent des visiteurs du monde entier.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="monuments" class="info-section">
+            <h2>Monuments</h2>
+            <div class="flex-container">
+                <div class="card">
+                    <img src="../../assets/image/yanis/colosseum.webp" alt="Colisée">
+                    <p><strong>Colisée:</strong> Un symbole de l'histoire romaine à Rome. Le Colisée est un amphithéâtre antique qui pouvait accueillir jusqu'à 50 000 spectateurs pour des combats de gladiateurs et autres spectacles. C'est l'un des monuments les plus emblématiques de Rome et une merveille d'ingénierie antique.</p>
+                </div>
+                <div class="card">
+                    <img src="../../assets/image/yanis/leaning_tower.jpg" alt="Tour de Pise">
+                    <p><strong>Tour de Pise:</strong> La célèbre tour penchée de Pise. La tour de Pise est connue pour son inclinaison unique due à un affaissement du sol. Ce clocher de la cathédrale de Pise est un site touristique populaire, et il est possible de monter à son sommet pour une vue panoramique de la ville.</p>
+                </div>
+                <div class="card">
+                    <img src="../../assets/image/yanis/duomo_milan.jpg" alt="Duomo de Milan">
+                    <p><strong>Duomo de Milan:</strong> Une cathédrale gothique magnifique à Milan. Le Duomo de Milan est l'une des plus grandes cathédrales du monde et un chef-d'œuvre de l'architecture gothique. La façade en marbre blanc est ornée de sculptures détaillées et il est possible de monter sur les toits pour une vue imprenable sur Milan.</p>
+                </div>
+            </div>
+        </section>
     </main>
-
 
     <footer>
         <?php
         include '../page/_Footer.php';
         ?>
     </footer>
+    
     
 </body>
 </html>
