@@ -1,78 +1,40 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+/* CSS for the page italie.php */
+
+
+
+.colisee {
+    background-image:url("../../assets/image/yanis/fond-colisée.png") ;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 0;
+    
 }
 
-
-
-main {
-    padding: 2em;
-}
-
-.info-section {
-    margin-bottom: 2em;
-}
-
-.info-section h2 {
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-.flex-container {
+.titleFlag {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
-.card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin: 1em;
-    flex: 1 1 calc(33.333% - 2em);
-    box-sizing: border-box;
-    transition: transform 0.3s;
+.drapeau-italie1 {
+    width: 15vw;
 }
 
-.card img {
-    width: 100%;
-    height: auto;
+.ptest2 {
+
 }
-
-.card p {
-    padding: 1em;
-    text-align: center;
+body{
+    background-image: url("../../assets/image/yanis/fond-colisée.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    
+    
 }
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-
-
-@media (max-width: 768px) {
-    .card {
-        flex: 1 1 calc(50% - 2em);
-    }
-}
-
-@media (max-width: 480px) {
-    .card {
-        flex: 1 1 100%;
-    }
-}
-
-
-.title-flag {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flagITA {
-    width: 10vw;
+img{
+    position: fixed;
 }

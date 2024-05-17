@@ -5,59 +5,39 @@
         <p>Avec la participation de :</p>
         <ul>
             <li>
-                <a class="gitlink" href="https://github.com/Guiiizmo">Malik</a>
+                Malik
             </li>
             <li>
-                <a class="gitlink" href="https://github.com/Ibrahimpalisse">Ibrahim</a>
+                Ibrahim
+            </li>
+            <li>
+                Sabrina
+            </li>
+            <li>
+                Maïla
+            </li>
+            <li>
+                Hamza
             </li>
         </ul>
-        
         <ul>
             <li>
-                <a class="gitlink" href="https://github.com/hsabrina1">Sabrina</a>
+                Adham
             </li>
             <li>
-                <a class="gitlink" href="https://github.com/Dounayha">Dounayha</a>
+                Aslan
+            </li>
+            <li>
+                Yanis
+            </li>
+            <li>
+                Rubin
+            </li>
+            <li>
+                Dounayha
             </li>
         </ul>
-        
-        <ul>
-            <li>
-                <a class="gitlink" href="https://github.com/yanis-bennadji">Yanis</a>
-            </li>
-            <li>
-                <a class="gitlink" href="https://github.com/adham-merfoud">Adham</a>
-            </li>
-
-            
-        </ul>
-        
-        <ul>
-            <li>
-                <a class="gitlink" href="https://github.com/rubin-bourgeois">Rubin</a>
-            </li>
-            <li>
-                <a class="gitlink" href="https://github.com/bailhamza">Hamza</a>
-            </li>
-        </ul>
-
-        <ul>
-            <li>
-                <a class="gitlink" href="https://github.com/Maiilaa">Maïla</a>
-            </li>
-            <li>
-                <a class="gitlink" href="https://github.com/AslanUnravel">Aslan</a>
-            </li>
-        </ul> 
-
-        
-
-       
     </section>
-
-    <div class="end-footer">
-        <p>Projet dans le cadre de formation La Plateforme.</p>
-    </div>
 
 </footer>
 

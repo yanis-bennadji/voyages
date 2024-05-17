@@ -16,31 +16,31 @@ body {
     
 }
 
-
+main {}
 
 .logo {
     font-size: 24px;
     font-weight: bold;
 }
 
-nav ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-nav ul li {
+nav > ul > li {
     margin-right: 20px;
 }
 
-nav ul li a {
+nav > ul > li > a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
+nav > ul > li > a:hover {
     color: lightsalmon;
 }
 
@@ -55,15 +55,15 @@ nav {
     background-color: black;
 }
 
-.deroulant:hover .menu-deroulant {
+.deroulant:hover > .menu-deroulant {
     display: block;
 }
 
-.menu-deroulant li {
+.menu-deroulant > li {
     margin: 0;
 }
 
-.menu-deroulant li a {
+.menu-deroulant > li > a {
     color: #fff;
     padding: 10px 15px;
     display: block;
@@ -71,7 +71,7 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.menu-deroulant  li  a:hover {
+.menu-deroulant > li > a:hover {
     background-color: black;
 }
 
@@ -84,7 +84,7 @@ nav {
     opacity: 0;
 }
 
-.deroulant:hover .menu-deroulant {
+.deroulant:hover > .menu-deroulant {
     display: block;
     opacity: 1;
 }
@@ -115,25 +115,6 @@ nav {
 
 
 /* CSS for the Footer */
-
-.gitlink {
-    color: white;
-    transition: transform 0.3s ease;
-    transition: font-size 0.3s ease-in-out;
-
-
-}
-
-.gitlink:hover {
-    font-size: 120%;
-}
-
-.end-footer{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-
-}
 
 .footertest {
     background-color: black;
