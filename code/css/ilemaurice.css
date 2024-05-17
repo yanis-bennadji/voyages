@@ -1,0 +1,116 @@
+@media screen and(min-width:320px) {
+    .mauricehaut {
+         width: 100%;
+        }
+}
+
+
+/*body{
+    background-color: green;
+}*/
+
+
+.mauricehaut{
+    background-color: #046276
+}
+
+.mauricepaysage{
+    width: 100%;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mauricetitre{
+    color: #046276;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 50px;
+    display: inline-block;
+    padding: 30px;
+}
+
+#caroussel{
+    width: 610px;
+    overflow: hidden;
+    border: 5px solid #046276;
+    border-radius: 5%;
+    
+}
+
+.caroussel1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.maurice{
+    display: flex;
+    animation-duration: 30s;
+    animation-name: maurice;
+    animation-iteration-count: infinite;
+    z-index: 0;
+
+}
+
+.TitleCar{
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    z-index: 100;
+}
+
+@keyframes maurice {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-610px);
+    }
+    50% {
+        transform: translateX(-1220px);
+    }
+    75% {
+            transform: translateX(-1830px);
+        }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.texteimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.texteimage p{
+    padding: 10px;
+}
+
+.platmaurice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.leminefrit{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+    border: 5px solid black;
+    
+}
+
+.bolrenverse{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+    border: 5px solid #046276;
+}
