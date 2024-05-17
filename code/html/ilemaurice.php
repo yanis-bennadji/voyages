@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/ilemaurice.css">
+    <link rel="stylesheet" href="../../../voyages/code/css/voyages.css">
 </head>
 <body>
+
+<header>
+            <?php
+            include '../../../voyages/code/page/_Header.php';
+            ?>
+    </header>
 
     <div class="mauricehaut">
     
@@ -83,6 +90,12 @@
         </p>
         </section>
         </section>
+
+        <footer>
+            <?php
+            include '../../../voyages/code/page/_Footer.php';
+            ?>
+        </footer>
         
 </body>
 </html>

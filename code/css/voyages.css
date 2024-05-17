@@ -1,1 +1,199 @@
-/* CSS index */
+/* CSS for the _Header */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    
+}
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: lightsalmon;
+}
+
+nav {
+    z-index: 100;
+    background-color: black;
+}
+
+.menu-deroulant {
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+.deroulant:hover .menu-deroulant {
+    display: block;
+}
+
+.menu-deroulant li {
+    margin: 0;
+}
+
+.menu-deroulant li a {
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu-deroulant  li  a:hover {
+    background-color: black;
+}
+
+
+.menu-deroulant {
+    display: none;
+    position: absolute;
+    background-color: black;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.deroulant:hover .menu-deroulant {
+    display: block;
+    opacity: 1;
+}
+
+
+.sous-menu-deroulant {
+    display: none;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 100%;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.menu-deroulant li:hover .sous-menu-deroulant {
+    display: block;
+    opacity: 1;
+}
+
+
+.test {
+    margin-top: 115px;
+}
+
+
+
+
+
+/* CSS for the Footer */
+
+.gitlink {
+    color: white;
+    transition: transform 0.3s ease;
+    transition: font-size 0.3s ease-in-out;
+
+
+}
+
+.gitlink:hover {
+    font-size: 120%;
+}
+
+.end-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.footertest {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logoFooter {
+    width: 10vw;
+}
+
+.footertest2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CSS for the main of the index.php */
+
+
+h1, p {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.planisphere {
+    width: 35vw;
+    
+}
+
+.section1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drapeau-index {
+    float: left;
+    width: 150px;
+    object-fit: cover;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    
+
+    
+}
+
+.drapeau-index:hover {
+    transition: all .3s ease-in;
+    transform: scale(1.10);
+}
+
+.section2 {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: lightgray;
+}
