@@ -49,10 +49,6 @@
             c'est le pays insulaire le plus grand d'Europe. Entre champs de lave, glaciers impressionnants, geysers et
             sources chaudes, c'est un environnement naturel unique et spectaculaire.</p>
         </div>
-        
-
-
-
     </main>
 </body>
 
