@@ -39,16 +39,15 @@
                     <li class="deroulant">
                         <a href="#">Les voyageurs</a>
                         <ul class="menu-deroulant">
-                            <li><a href="">Yanis</a></li>
-                            <li><a href="">Maïla</a></li>
-                            <li><a href="">Rubin</a></li>
-                            <li><a href="">Sabrina</a></li>
-                            <li><a href="">Aslan</a></li>
-                            <li><a href="">Dounayha</a></li>
-                            <li><a href="">Ibrahim</a></li>
-                            <li><a href="">Adham</a></li>
-                            <li><a href="">Malik</a></li>
-                            <li><a href="">Hamza</a></li>
+                            <li><a href="./italie.php">Yanis</a></li>
+                            <li><a href="../html/maldives.php">Maïla</a></li>
+                            <li><a href="../html/ilemaurice.php">Sabrina</a></li>
+                            <li><a href="../html/Japon.php">Aslan</a></li>
+                            <li><a href="../html/malaisie.php">Dounayha</a></li>
+                            <li><a href="../html/suisse.php">Ibrahim</a></li>
+                            <li><a href="../html/islande.php">Adham</a></li>
+                            <li><a href="../html/france.php">Malik</a></li>
+                            <li><a href="../html/algérie.php">Hamza</a></li>
                         </ul>
                     </li>
                     <li><a href="../../../voyages/code/html/contact.php">Contact</a></li>
