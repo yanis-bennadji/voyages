@@ -120,8 +120,8 @@
 </section>
 
 <footer>
-            <?php
-            include '../../../voyages/code/page/_Footer.php';
+            <?php 
+            include "../page/_Footer.php"
             ?>
 </footer>
 
