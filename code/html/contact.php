@@ -42,3 +42,11 @@
     
 </body>
 </html>
+<?php
+function my_fonction(&$nombre){
+    $nombre = 6+14;
+}
+$nombre = 0;
+my_fonction($nombre);
+echo $nombre;
+?>
